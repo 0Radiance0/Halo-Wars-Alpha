@@ -1,4 +1,8 @@
 [
     {
-         religionLimitBase=0
-    }.
+    },
+       religionLimitBase=0
+    {
+    },
+       religionLimitMultiplier=0
+]
