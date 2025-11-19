@@ -17,7 +17,6 @@
 		"uniques": ["[+3] Movement <for [Armored] units>", "Cities start with [2] population"],
 		"cities": ["Alpha Base","Fortress","Station"]
 	},
-
 	{
 		"name": "The Covenant",
 		"leaderName": "Ripa Moramee",
