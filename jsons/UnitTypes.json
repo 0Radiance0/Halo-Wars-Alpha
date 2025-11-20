@@ -116,7 +116,7 @@
     {
         "name": "UNSC Uber Unit",
         "movementType": "Air",
-        "uniques": ["Aircraft"]
+        "uniques": ["Aircraft", "Can perform Air Sweep"]
     },
     {
         "name": "Covenant Uber Unit",
@@ -125,27 +125,27 @@
     {
         "name": "UNSC Corvette",
         "movementType": "Air",
-        "uniques": ["Aircraft"]
+        "uniques": ["Aircraft", "[+14] Sight", "Can see over obstacles"]
     },
     {
         "name": "Covenant Corvette",
         "movementType": "Air",
-        "uniques": ["Aircraft"]
+        "uniques": ["Aircraft", "[+12] Sight", "Can see over obstacles", "Can perform Air Sweep"]
     },
     {
         "name": "UNSC Frigate",
         "movementType": "Air",
-        "uniques": ["Aircraft"]
+        "uniques": ["Aircraft", "[+20] Sight", "Can see over obstacles", "Can perform Air Sweep"]
     },
     {
         "name": "Infected Corvette",
         "movementType": "Air",
-        "uniques": ["Aircraft"]
+        "uniques": ["Aircraft", "[+10] Sight", "Can see over obstacles"]
     },
     {
         "name": "Infected Frigate",
         "movementType": "Air",
-        "uniques": ["Aircraft"]
+        "uniques": ["Aircraft", "[+18] Sight", "Can see over obstacles"]
     },
     {
         "name": "Missile",
