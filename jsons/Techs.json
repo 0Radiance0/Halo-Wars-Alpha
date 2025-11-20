@@ -1,7 +1,7 @@
 [
 	{
 		"columnNumber": 0,
-		"era": "Tech Level One",
+		"era": "Tech Level Zero",
 		"techCost": 20,
 		"buildingCost": 40,
 		"wonderCost": 185,
@@ -16,37 +16,30 @@
 	},
 	{
 		"columnNumber": 1,
-		"era": "Tech Level One",
-		"techCost": 40,
-		"buildingCost": 140,
+		"era": "Tech Level Zero",
+		"techCost": 30,
+		"buildingCost": 80,
 		"wonderCost": 500,
 		"techs": [
 			{
-				"name": "Pottery",
+				"name": "Logistics",
 				"row": 2,
-				"prerequisites": ["Agriculture"],
+				"prerequisites": ["General Prerequisite"],
                 "uniques": ["[+100]% weight to this choice for AI decisions"],
-				"quote": "'Shall the clay say to him that fashioneth it, what makest thou?' - Bible Isaiah 45:9"
+				"quote": "Supplies are the backbone of any army's force."
 			},
 			{
-				"name": "Animal Husbandry",
+				"name": "Infantry Recruitment",
 				"row": 5,
-				"prerequisites": ["Agriculture"],
-				"quote": "'Thou shalt not muzzle the ox when he treadeth out the corn.' - Bible Deuteronomy 25:4"
+				"prerequisites": ["General Prerequisite"],
+				"quote": "[]"
 			},
 			{
-				"name": "Archery",
-				"row": 7,
-				"prerequisites": ["Agriculture"],
-                "uniques": ["[-50]% weight to this choice for AI decisions"],
-				"quote": "'The haft of the arrow has been feathered with one of the eagle's own plumes, we often give our enemies the means of our own destruction' - Aesop"
-			},
-			{
-				"name": "Mining",
-				"row": 9,
-				"prerequisites": ["Agriculture"],
-                "uniques": ["[+100]% weight to this choice for AI decisions"],
-				"quote": "'The meek shall inherit the Earth, but not its mineral rights.' - J. Paul Getty"
+				"name": "Energy Production",
+				"row": 8,
+				"prerequisites": ["General Prerequisite"],
+                "uniques": ["[+50]% weight to this choice for AI decisions"],
+				"quote": "[]"
 			}
 
 		]
@@ -54,87 +47,79 @@
 	{
 		"columnNumber": 2,
 		"era": "Tech Level One",
-		"techCost": 55,
-		"buildingCost": 75,
-		"wonderCost": 185,
+		"techCost": 60,
+		"buildingCost": 120,
+		"wonderCost": 500,
 		"techs": [
 			{
-				"name": "Sailing",
+				"name": "Enhanced Logistics",
 				"row": 1,
-				"prerequisites": ["Pottery"],
+				"prerequisites": ["Logistics"],
                 "uniques": ["[+100]% weight to this choice for AI decisions"],
-				"quote": "'He who commands the sea has command of everything.' - Themistocles"
+				"quote": "[]"
 			},
 			{
-				"name": "Calendar",
+				"name": "Advanced Supply Generation",
 				"row": 2,
-				"prerequisites": ["Pottery"],
+				"prerequisites": ["Logistics"],
                 "uniques": ["[+100]% weight to this choice for AI decisions"],
-				"quote": "'So teach us to number our days, so that we may apply our hearts unto wisdom.' - Bible Psalms 90:12"
+				"quote": "[]"
 			},
 			{
-				"name": "Writing",
-				"row": 3,
-				"prerequisites": ["Pottery"],
+				"name": "Advanced Infantry",
+				"row": 4,
+				"prerequisites": ["Infantry Recruitment"],
                 "uniques": ["Enables establishment of embassies"],
-				"quote": "'He who destroys a good book kills reason itself.' - John Milton"
+				"quote": "[]"
 			},
 			{
-				"name": "Trapping",
+				"name": "Armor Development",
 				"row": 5,
-				"prerequisites": ["Animal Husbandry"],
-                "uniques": ["[+100]% weight to this choice for AI decisions"],
-				"quote": "'Even brute beasts and wandering birds do not fall into the same traps or nets twice.' - Saint Jerome"
-			},
-			{
-				"name": "The Wheel",
-				"row": 7,
-				"prerequisites": ["Animal Husbandry", "Archery"],
-                "uniques": ["[+100]% weight to this choice for AI decisions"],
-				"quote": "'Wisdom and virtue are like the two wheels of a cart.' - Japanese proverb"
-			},
-			{
-				"name": "Masonry",
-				"row": 9,
-				"prerequisites": ["Mining"],
-				"quote": "'How happy are those whose walls already rise!' - Virgil"
-			},
-			{
-				"name": "Bronze Working",
-				"row": 10,
-				"prerequisites": ["Mining"],
+				"prerequisites": ["Infantry Recruitment"],
                 "uniques": ["[+50]% weight to this choice for AI decisions"],
-				"quote": "'Here Hector entered, with a spear eleven cubits long in his hand; the bronze point gleamed in front of him, and was fastened to the shaft of the spear by a ring of gold.' - Homer"
+				"quote": "[]"
+			},
+			{
+				"name": "Advanced Energy Production",
+				"row": 7,
+				"prerequisites": ["Energy Production"],
+                "uniques": ["[+100]% weight to this choice for AI decisions"],
+				"quote": "[]"
+			},
+			{
+				"name": "Land Improvement Initiatives",
+				"row": 9,
+				"prerequisites": ["Energy Production"],
+				"quote": "[]"
 			}
 		]
 	},
 	{
 		"columnNumber": 3,
 		"era": "Tech Level One",
-		"techCost": 105,
-		"buildingCost": 100,
-		"wonderCost": 250,
+		"techCost": 220,
+		"buildingCost": 150,
+		"wonderCost": 500,
 		"techs": [
 			{
-				"name": "Optics",
-				"cost": 85,
+				"name": "Forward Construction",
 				"row": 1,
-				"prerequisites": ["Sailing"],
-				"uniques": ["Enables embarkation for land units"],
+				"prerequisites": ["Enhanced Logistics"],
 				"quote": "'He made an instrument to know if the moon shine at full or no.' - Samuel Butler"
 			},
 			{
-				"name": "Horseback Riding",
+				"name": "Base Defenses",
 				"row": 5,
-				"prerequisites": ["Trapping","The Wheel"],
+				"prerequisites": ["Armor Development"],
                 "uniques": ["[+50]% weight to this choice for AI decisions"],
-				"quote": "'A Horse! A Horse! My kingdom for a horse!' - Shakespeare (Richard III)"
+				"quote": "[]"
 			},
 			{
-				"name": "Mathematics",
+				"name": "Standardized Infantry Improvement",
 				"row": 7,
-				"prerequisites": ["The Wheel"],
-				"quote": "'Mathematics is the gate and key to the sciences.' - Roger Bacon"
+				"prerequisites": ["Advanced Infantry"],
+				"uniques": ["Enables embarkation for land units"]
+				"quote": "[]"
 			},
 			{
 				"name": "Construction",
@@ -147,7 +132,7 @@
 	},
 	{
 		"columnNumber": 4,
-		"era": "Classical era",
+		"era": "Tech Level One",
 		"techCost": 175,
 		"buildingCost": 100,
 		"wonderCost": 250,
