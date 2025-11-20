@@ -199,6 +199,18 @@
 			"[+150]% Strength <vs [Light Infantry], [Main Infantry], [Heavy Infantry], [Flood Light Infantry], [Flood Main Infantry], [Flood Heavy Infantry], [Flood Scout], [Rebel Infantry], and [Covenant Leader Unit]>"]
 	},
 	{
+	    "name": "Infected Jackals",
+		"unitType": "Flood Light Infantry",
+		"uniqueTo": "The Flood",
+		"movement": 3,
+		"strength": 7,
+		"rangedStrength": 15,
+		"range": 4,
+		"cost": 100,
+		"uniques": ["Never appears as a Rebels unit", "Cannot be purchased",
+		"[+150]% Strength <vs [Light Infantry], [Main Infantry], [Heavy Infantry], [Flood Light Infantry], [Flood Main Infantry], [Flood Heavy Infantry], [Rebel Infantry], [Covenant Leader Unit], and [Flood Scout]>"]
+	},
+	{
 		"name": "Infected Spartan",
 		"unitType": "Flood Special Forces",
 		"uniqueTo": "The Flood",
