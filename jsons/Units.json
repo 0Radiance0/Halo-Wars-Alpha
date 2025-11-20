@@ -22,7 +22,7 @@
 		"uniques": ["Can build [Land] improvements on tiles", "Automation is a primary action", "May enter foreign tiles without open borders"],
 		"cost": 50
 		"uniqueTo": "The Flood",
-		"replaces": "Field Techncicians"
+		"replaces": "Field Technicians"
 	},
 	{
 		"name": "Settler",
