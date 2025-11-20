@@ -68,18 +68,12 @@
 		"uniqueTo": "The Covenant"
 	},
 	{
-		"name": "Warrior",
-		"unitType": "Sword",
-		"movement": 2,
-		"strength": 8,
-		"cost": 40,
-		"obsoleteTech": "Metal Casting",
-		"upgradesTo": "Swordsman",
-		"uniques": ["May upgrade to [Spearman] through ruins-like effects"],
-		"attackSound": "nonmetalhit",
-        "civilopediaText": [
-			{"text": "This is your basic, club-swinging fighter."}
-		]
+		"name": "Infection Form",
+		"unitType": "Flood Scout",
+		"movement": 4,
+		"strength": 10,
+		"cost": 30,
+		"uniques": ["No damage penalty for wounded units", "Uncapturable", "May capture killed [Light Infantry] [Main Infantry] [Heavy infantry] units <by consuming this unit>."],
 	},
 	{
 		"name": "Brute",
