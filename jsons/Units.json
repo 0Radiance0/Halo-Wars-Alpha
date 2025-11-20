@@ -1086,8 +1086,8 @@
 		"name": "Great Admiral",
 		"unitType": "Civilian Water",
 		"uniques": [
-            // TODO: "[Every adjacent [{Friendly} {Water}] unit] heals [100] HP <by consuming this unit>",
-            "May Paradrop to [{your} {Coastal} {City center}] tiles up to [25] tiles away <in [City center] tiles>", // Change Port
+            "[Every adjacent [{Friendly} {Water}] unit] heals [100] HP <by consuming this unit>",
+            "May Paradrop to [{your} {Coastal} {City center}] tiles up to [25] tiles away <in [City center] tiles>",
             "[+15]% Strength bonus for [{Military} {Water}] units within [2] tiles",
 			"Can be earned through combat <for [Water] units>",
             "Is part of Great Person group [Admiral]",
@@ -1095,5 +1095,5 @@
             "Great Person - [War]", "Unbuildable", "Uncapturable"]
 		"movement": 4
 	}
-  
+
 ]
