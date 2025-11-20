@@ -1,15 +1,4 @@
 [
-    {
-        "name": "Scientific",
-        "victoryScreenHeader": "Complete all the spaceship parts to win!",
-        "milestones": [
-            "Build [Apollo Program]", "Add all [spaceship parts] in capital"
-        ],
-        "requiredSpaceshipParts": [
-            "SS Engine", "SS Stasis Chamber", "SS Cockpit", "SS Booster", "SS Booster", "SS Booster"
-        ],
-        "victoryString": "You have achieved victory through mastery of Science! You have conquered the mysteries of nature and led your people on a voyage to a brave new world! Your triumph will be remembered as long as the stars burn in the night sky!",
-        "defeatString": "You have been defeated. Your civilization has been overwhelmed by its many foes. But your people do not despair, for they know that one day you shall return - and lead them forward to victory!"
     },
     {
         "name": "Cultural",
@@ -24,6 +13,13 @@
         "milestones": ["Capture all capitals"],
         "victoryString": "The world has been convulsed by war. Many great and powerful civilizations have fallen, but you have survived - and emerged victorious! The world will long remember your glorious triumph!",
         "defeatString": "You have been defeated. Your civilization has been overwhelmed by its many foes. But your people do not despair, for they know that one day you shall return - and lead them forward to victory!"
+    },
+    {
+        "name": "Assimilation",
+        "victoryScreenHeader": "Assimilate all life on the map to win.",
+        "milestones": ["Capture all cities"],
+        "victoryString": "The Flood have consumed everything...can they truly still be stopped?",
+        "defeatString": "The Flood have devoured what exists of your race here. There is nothing more to be said--the abomination leaves you no further time to ponder.",
     },
     {
         "name": "Diplomatic",
