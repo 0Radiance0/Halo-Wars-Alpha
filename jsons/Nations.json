@@ -16,7 +16,7 @@
 		"innerColor": [125,125,112],
 		"uniqueName": "Spirit of Fire",
 		"uniques": ["[+3] Movement <for [Armored] units>", "Start with 2 population in all cities."],
-		"cities": ["Alpha Base","Fortress","Station"]
+		"cities": ["Alpha Base","UNSC Station"]
 	},
 	{
 		"name": "The Covenant",
@@ -35,7 +35,7 @@
 		"innerColor": [236,254,254],
 		"uniqueName": "The Arbiter",
 		"uniques": ["No damage penalty for wounded units <for [Elite] units>"],
-		"cities": ["The Great Citadel", "Citadel", "Keep", "Outpost"]
+		"cities": ["The Great Keep", "Outpost"]
 	},
 	{
 		"name": "The Flood",
@@ -54,7 +54,7 @@
 		"innerColor": [192,188,96],
 		"uniqueName": "Timeless Chorus",
 		"uniques": ["Start with +10 Food in all cities. Many Flood units can capture enemy units that they kill."],
-		"cities": ["Gravemind", "Flood Colony", "Flood Nest"]
+		"cities": ["Gravemind", "Flood Colony"]
 	},
 	{
 		"name": "Rebels",
