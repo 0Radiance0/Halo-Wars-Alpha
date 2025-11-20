@@ -79,7 +79,7 @@
 		"strength": 10,
 		"cost": 90,
 		"uniques": ["[+3] Sight"],
-		"uniqueTo": "Rebels",
+		"uniqueTo": "Barbarians",
 		"replaces": "Warthog"
 	},
 	{
@@ -250,7 +250,7 @@
 	{
 		"name": "Rebel Infantry",
 		"unitType": "Rebel Infantry",
-		"uniqueTo": "Rebels",
+		"uniqueTo": "Barbarians",
 		"replaces": "Marine",
 		"movement": 2,
 		"strength": 9,
