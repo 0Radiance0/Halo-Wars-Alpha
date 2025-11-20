@@ -153,6 +153,12 @@
 			"Every [17] tiles with this terrain will receive a major deposit of a strategic resource.",
 			"Never receives any resources <in [Hill] tiles>"]
 	},
+	{
+		"name": "Blightlands",
+		"type": "Land",
+		"movementCost": 3,
+		"RGB": [],
+		"uniques": ["Does not generate naturally"]
 
 	// Terrain features
 	{
@@ -272,7 +278,7 @@
         ]
 	},
 	{
-		"name": "Flood plains",
+		"name": "Floodplains",
 		"type": "TerrainFeature",
 		"food": 2,
 		"movementCost": 1,
