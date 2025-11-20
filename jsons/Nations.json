@@ -13,8 +13,8 @@
 		"tradeRequest": "Trade is necessary for the both of us to keep our people safe.",
 		"outerColor": [116,131,78],
 		"innerColor": [125,125,112],
-		"uniqueName": "Captain Cutter",
-		"uniques": ["[+3] Movement <for [Armored] units>", "Cities start with [2] population"],
+		"uniqueName": "Spirit of Fire",
+		"uniques": ["[+3] Movement <for [Armored] units>", "Start with [2] Population [in all cities]"],
 		"cities": ["Alpha Base","Fortress","Station"]
 	},
 	{
@@ -33,6 +33,23 @@
 		"innerColor": [236,254,254],
 		"uniqueName": "The Arbiter",
 		"uniques": ["No damage penalty for wounded units <for [Elite] units>"],
-		"cities": ["The Great Citadel", "Citadel", "Keep", "Outpost",]
-	}
+		"cities": ["The Great Citadel", "Citadel", "Keep", "Outpost"]
+	},
+	{
+		"name": "The Flood",
+		"leaderName": "The Gravemind",
+		"preferredVictoryType": "Assimilation",
+
+		"startIntroPart1": "Welcome to the Halo Wars mod.",
+		"startIntroPart2": "The Flood are a particularly unique faction. They are intended to start weak but have the capability to snowball out of control if the other factions don't work to keep them contained. Use aggressive strategies to expand your early military capability by infecting enemy units, and fulfill your destiny!",
+		"declaringWar": "The gate has been unlatched, headstones pushed aside; corpses shift and offer room, a fate you must abide!",
+		"attacked": "You will be food; nothing more.",
+		"defeated": "Resignation is my virtue; like water, I ebb, and flow. Defeat is simply the addition of time to a sentence I never deserved, but you impose.",
+		"introduction": "I? I am a monument to all your sins.",
+		"declaringFriendship": "I am a timeless chorus. Join your voice with mine, and sing victory everlasting."
+		"outerColor": [192,188,96],
+		"innerColor": [192,188,96],
+		"uniqueName": "Timeless Chorus",
+		"uniques": ["All cities start with +10 Food"],
+		"cities": ["Gravemind", "Flood Colony", "Flood Nest"]
 ]
