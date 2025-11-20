@@ -5,14 +5,14 @@
 		"unitType": "Logistics",
 		"movement": 2,
 		"uniques": ["Can build [Land] improvements on tiles", "Automation is a primary action"],
-		"cost": 100
+		"cost": 80
 	},
 	{
 		"name": "Grunt Workers",
 		"unitType": "Logistics",
 		"movement": 2,
 		"uniques": ["Can build [Land] improvements on tiles", "Automation is a primary action"],
-		"cost": 90
+		"cost": 70
 	},
 	{
 		"name": "Settler",
@@ -27,7 +27,7 @@
 		"name": "D20 Heron",
 		"unitType": "Logistics",
 		"movement": 5,
-		"cost": 150,
+		"cost": 200,
 		"uniques": ["Founds a new city <by consuming this unit>", "Requires at least [2] population"],
 		"hurryCostModifier": 50
 	},
@@ -35,7 +35,7 @@
 		"name": "Keep Constructor",
 		"unitType": "Logistics",
 		"movement": 5,
-		"cost": 130,
+		"cost": 180,
 		"uniques": ["Founds a new city <by consuming this unit>", "Requires at least [2] population"],
 		"hurryCostModifier": 50
 	},
@@ -43,20 +43,29 @@
 		"name": "Biomass Depositor",
 		"unitType": "Logistics",
 		"movement": 5,
-		"cost": 100,
+		"cost": 150,
 		"uniques": ["Founds a new city <by consuming this unit>", "Requires at least [2] population"],
 		"hurryCostModifier": 50
 	},
 	{
-		"name": "Scout",
+		"name": "Warthog",
 		"unitType": "Scout",
 		"movement": 2,
-		"strength": 5,
-		"cost": 25,
-		"obsoleteTech": "Scientific Theory",
-		"uniques": ["May upgrade to [Archer] through ruins-like effects", "Never appears as a Barbarian unit"],
-		"promotions": ["Ignore terrain cost"],
+		"strength": 20,
+		"cost": 100,
+		"uniques": ["[+3] Sight", "Never appears as a Rebel unit"],
+		"uniqueTo": "UNSC",
 		"attackSound": "nonmetalhit"
+	},
+	{
+		"name": "Ghost",
+		"unitType": "Scout",
+		"movement": 3,
+		"strength": 30,
+		"cost": 90,
+		"uniques": ["[+3] Sight", "Never appears as a Rebel unit"]
+		"replaces": "Warthog",
+		"uniqueTo": "The Covenant"
 	},
 	{
 		"name": "Warrior",
