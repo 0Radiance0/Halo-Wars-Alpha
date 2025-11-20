@@ -1,6 +1,6 @@
 [
     {
-        "name": "Tech Level One",
+        "name": "Tech Level Zero",
         "researchAgreementCost": 500,
         "startingSettlerUnit": "Settler",
         "startingSettlerCount": 1, 
@@ -16,7 +16,7 @@
         "iconRGB": [92, 150, 169]
     },
     {
-        "name": "Tech Level Two",
+        "name": "Tech Level One",
         "researchAgreementCost": 1000,
         "startingSettlerUnit": "Settler",
         "startingSettlerCount": 1,
@@ -25,14 +25,14 @@
         "startingMilitaryUnitCount": 1,
         "settlerPopulation": 1,
         "startingGold": 800,
-        "baseUnitBuyCost": 200,
+        "baseUnitBuyCost": 400,
         "embarkDefense": 30,
         "startPercent": 0,
-        "citySound": "cityInformation",
+        "citySound": "cityModern",
         "iconRGB": [92, 150, 169],
     },
     {
-        "name": "Tech Level Three",
+        "name": "Tech Level Two",
         "researchAgreementCost": 3000,
         "startingSettlerUnit": "Settler",
         "startingSettlerCount": 1,
@@ -41,10 +41,41 @@
         "startingMilitaryUnitCount": 1,
         "settlerPopulation": 1,
         "startingGold": 800,
-        "baseUnitBuyCost": 200,
+        "baseUnitBuyCost": 750,
+        "embarkDefense": 40,
+        "startPercent": 0,
+        "citySound": "cityInformation",
+        "iconRGB": [92, 150, 169]
+    },
+    {
+        "name": "Tech Level Three",
+        "researchAgreementCost": 5000,
+        "startingSettlerUnit": "Settler",
+        "startingSettlerCount": 1,
+        "startingWorkerCount": 0,
+        "startingMilitaryUnit": "Warthog",
+        "startingMilitaryUnitCount": 1,
+        "settlerPopulation": 1,
+        "startingGold": 800,
+        "baseUnitBuyCost": 1000,
+        "embarkDefense": 40,
+        "startPercent": 0,
+        "citySound": "cityInformation",
+        "iconRGB": [92, 150, 169]
+    },
+    {
+        "name": "Tech Level Four",
+        "researchAgreementCost": 10000,
+        "startingSettlerUnit": "Settler",
+        "startingSettlerCount": 1,
+        "startingWorkerCount": 0,
+        "startingMilitaryUnit": "Warthog",
+        "startingMilitaryUnitCount": 1,
+        "settlerPopulation": 1,
+        "startingGold": 800,
+        "baseUnitBuyCost": 1500,
         "embarkDefense": 40,
         "startPercent": 0,
         "citySound": "cityFuture",
         "iconRGB": [92, 150, 169]
-    }
 ]
