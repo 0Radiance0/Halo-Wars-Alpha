@@ -20,6 +20,10 @@
         "movementType": "Land"
     },
     {
+        "name": "Rebel Infantry",
+        "movementType": "Land"
+    },
+    {
         "name": "Special Forces",
         "movementType": "Land"
     },
