@@ -50,6 +50,7 @@
 		"outerColor": [192,188,96],
 		"innerColor": [192,188,96],
 		"uniqueName": "Timeless Chorus",
-		"uniques": ["All cities start with +10 Food"],
+		"uniques": ["Start with [+10] [Food] <in all cities>"],
 		"cities": ["Gravemind", "Flood Colony", "Flood Nest"]
+	}
 ]
