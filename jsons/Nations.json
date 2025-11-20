@@ -3,6 +3,7 @@
 		"name": "UNSC",
 		"leaderName": "Captain Cutter",
 		"preferredVictoryType": "Domination",
+		"personality": "Captain Cutter",
 
 		"startIntroPart1": "Welcome to the Halo Wars mod.",
 		"startIntroPart2": "I'll add something else here when I find a reason to idk",
