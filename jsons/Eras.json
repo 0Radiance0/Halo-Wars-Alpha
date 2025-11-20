@@ -1,35 +1,50 @@
 [
     {
         "name": "Tech Level One",
-        "researchAgreementCost": 1000,
-        "startingSettlerUnit": "D20 Heron",
+        "researchAgreementCost": 500,
+        "startingSettlerUnit": "Settler",
         "startingSettlerCount": 1, 
         "startingWorkerCount": 0,
         "startingMilitaryUnit": "Warthog",
         "startingMilitaryUnitCount": 1,
-        "settlerPopulation": 2,
+        "settlerPopulation": 1,
         "startingSupplies": 800,
         "baseUnitBuyCost": 200,
         "embarkDefense": 20,
         "startPercent": 0,
-        "citySound": "cityInformation",
-        "iconRGB": [116, 131, 78]
-        "uniqueTo": "UNSC"
+        "citySound": "cityModern",
+        "iconRGB": [92, 150, 169]
     },
     {
-        "name": "Tech Level 1",
+        "name": "Tech Level Two",
         "researchAgreementCost": 1000,
         "startingSettlerUnit": "Settler",
         "startingSettlerCount": 1,
         "startingWorkerCount": 0,
-        "startingMilitaryUnit": "Ghost",
+        "startingMilitaryUnit": "Warthog",
         "startingMilitaryUnitCount": 1,
         "settlerPopulation": 1,
         "startingSupplies": 800,
         "baseUnitBuyCost": 200,
-        "embarkDefense": 15,
+        "embarkDefense": 30,
+        "startPercent": 0,
+        "citySound": "cityInformation",
+        "iconRGB": [92, 150, 169],
+    },
+    {
+        "name": "Tech Level Three",
+        "researchAgreementCost": 3000,
+        "startingSettlerUnit": "Settler",
+        "startingSettlerCount": 1,
+        "startingWorkerCount": 0,
+        "startingMilitaryUnit": "Warthog",
+        "startingMilitaryUnitCount": 1,
+        "settlerPopulation": 1,
+        "startingSupplies": 800,
+        "baseUnitBuyCost": 200,
+        "embarkDefense": 40,
         "startPercent": 0,
         "citySound": "cityFuture",
-        "iconRGB": [,
-        "uniqueTo": "The Covenant"
+        "iconRGB": [92, 150, 169]
+    }
 ]
