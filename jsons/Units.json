@@ -104,7 +104,7 @@
 		"strength": 20,
 		"cost": 110,
 		"uniques": ["Never appears as a Rebels unit", "Cannot be purchased", "Only available <in cities with a [Barracks]>", 
-		"[+40] Strength <vs [Light Infantry], [Main Infantry], [Heavy Infantry], [Flood Light Infantry], [Flood Main Infantry], [Flood Heavy Infantry], [Rebel Infantry], [Covenant Leader Unit], and [Flood Scout]>", 
+		"[+150]% Strength <vs [Light Infantry], [Main Infantry], [Heavy Infantry], [Flood Light Infantry], [Flood Main Infantry], [Flood Heavy Infantry], [Rebel Infantry], [Covenant Leader Unit], and [Flood Scout]>", 
 		"Can transform to [Infected Flamethrowers <for [The Flood] Civilizations>"]
 	},
 	{
@@ -121,6 +121,19 @@
 			"Can transform to [Infected Spartan] <for [The Flood] Civilizations>"]
 	},
 	{
+		"name": "ODSTs",
+		"unitType": "Special Forces",
+		"uniqueTo": "Captain Cutter",
+		"movement": 3,
+		"strength": 25,
+		"rangedStrength": 50,
+		"range": 2,
+		"cost": 150,
+		"replaces": "Marine",
+		"uniques": ["[+2] Sight", "Never appears as a Rebels unit", "[+25]% Strength <vs [Light Armor]", 
+			"May Paradrop to [All] tiles up to [200] tiles away", "Can transform to [Infected Marines] <for [The Flood Civilizations>"]
+	},
+	{
 		"name": "Grunt Squad",
 		"unitType": "Main Infantry",
 		"movement": 2,
@@ -129,6 +142,28 @@
 		"range": 2,
 		"cost": 90,
 		"uniques": ["Never appears as a Rebels unit", "Cannot be purchased", "Only available <in cities with a [Hall]>", "Can transform to [Infected Grunts] <for [The Flood] Civilizations>"]
+	},
+	{
+		"name": "Jackal Snipers",
+		"unitType": "Light Infantry",
+		"movement": 3,
+		"strength": 5,
+		"rangedStrength": 20,
+		"range": 4,
+		"cost": 100,
+		"uniques": ["Never appears as a Rebels unit", "Cannot be purchased", "Only available <in cities with a [Hall]>",
+			"Can transform to [Infected Jackals] <for [The Flood] Civilizations>", "[+150]% Strength <vs [Light Infantry], [Main Infantry], [Heavy Infantry], [Flood Light Infantry], [Flood Main Infantry], [Flood Heavy Infantry], [Rebel Infantry], [Covenant Leader Unit], and [Flood Scout]>"]
+	},
+	{
+		"name": "Hunters",
+		"unitType": "Heavy Infantry",
+		"movement": 2,
+		"strength": 30,
+		"ranged Strength": 30,
+		"range": 2,
+		"cost": 150,
+		"uniques" ["Never appears as a Rebels unit", "Cannot be purchased", "Only available <in cities with a [Hall]>",
+			"Uncapturable"]
 	},
 	{
 		"name": "Infected Marines",
@@ -161,7 +196,7 @@
 		"strength": 20,
 		"cost": 110,
 		"uniques": ["Never appears as a Rebels unit", "Unbuildable", "Cannot be purchased", "[+2] Movement <in [Blightlands] tiles>", "[This Unit] heals [6] HP <upon ending a turn in a [Blightlands] tile>",
-			"[+40] Strength <vs [Light Infantry], [Main Infantry], [Heavy Infantry], [Flood Light Infantry], [Flood Main Infantry], [Flood Heavy Infantry], [Flood Scout], [Rebel Infantry], and [Hero Unit]>"]
+			"[+150]% Strength <vs [Light Infantry], [Main Infantry], [Heavy Infantry], [Flood Light Infantry], [Flood Main Infantry], [Flood Heavy Infantry], [Flood Scout], [Rebel Infantry], and [Covenant Leader Unit]>"]
 	},
 	{
 		"name": "Infected Spartan",
