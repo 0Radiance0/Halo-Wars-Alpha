@@ -279,19 +279,19 @@
 
 	// Unbuildable improvements
 	{
-		"name": "Ancient ruins",
+		"name": "Forerunner Ruins",
 		"terrainsCanBeBuiltOn": ["Land"],
 		"uniques": ["Unpillagable", "Provides a random bonus when entered", "Unbuildable",
 			"Does not need removal of [Forest]", "Does not need removal of [Jungle]"]
 	},
 	{
-		"name": "City ruins",
+		"name": "Base Ruins",
 		"terrainsCanBeBuiltOn": ["Land"],
 		"uniques": ["Unpillagable", "Unbuildable"],
         "civilopediaText": [{"text":"A bleak reminder of the destruction wreaked by War"}]
 	},
 	{
-		"name": "City center",
+		"name": "City Center",
 		"terrainsCanBeBuiltOn": ["Land"],
 		"uniques": ["Ensures a minimum tile yield of [+2 Food, +1 Production]",
             "Unpillagable", "Irremovable", "Unbuildable", "Excluded from map editor"],
@@ -299,6 +299,30 @@
 			{"text":"Marks the center of a city"},
 			{"text":"Appearance changes with the technological era of the owning civilization"}
 		]
+	},
+	{
+		"name": "UNSC Base",
+		"terrainsCanBeBuiltOn": ["Land"],
+		"uniques": ["Ensures a minimum tile yield of [+4 Food, +8 Production, +3 Science]",
+			"Unpillagable", "Irremovable", "Unbuildable", "Excluded from map editor"],
+		"uniqueTo": "UNSC",
+		"replaces": "City Center"
+	},
+	{
+		"name": "Covenant Base",
+		"terrainsCanBeBuiltOn": ["Land"],
+		"uniques": ["Ensures a minimum tile yield of [+5 Food, +3 Culture, +5 Science, +4 Production]",
+			"Unpillagable", "Irremovable", "Unbuildable", "Excluded from map editor"],
+		"uniqueTo": "The Covenant",
+		"replaces": "City Center"
+	},
+	{
+		"name": "Flood Base",
+		"terrainsCanBeBuiltOn": ["Land"],
+		"uniques": ["Ensures a minimum tile yield of [+10 Food, +2 Culture, +2 Production"],
+		    "Unpillagable", "Irremovable", "Unbuildable", "Excluded from map editor"],
+		"uniqueTo": "The Flood",
+		"replaces": "City Center"
 	},
 	{
 		"name": "Insurrectionist Encampment",
