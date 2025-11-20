@@ -63,6 +63,16 @@
 		"attackSound": "nonmetalhit"
 	},
 	{
+		"name": "Truck",
+		"unitType": "Scout",
+		"movement": 4,
+		"strength": 10,
+		"cost": 90,
+		"uniques": ["[+3] Sight"],
+		"uniqueTo": "Rebels",
+		"replaces": "Warthog"
+	},
+	{
 		"name": "Ghost",
 		"unitType": "Scout",
 		"movement": 5,
