@@ -32,7 +32,7 @@
 		"maintenance": 1,
 		"uniques": ["Destroyed when the city is captured"] //"Only available <when religion is enabled>"
 	},
-	// Column 1
+	// Column One
 	{
 		"name": "Granary",
 		"food": 2,
@@ -72,7 +72,7 @@
 		"requiredTech": "Archery",
 		"quote": "'It is not so much for its beauty that the forest makes a claim upon men's hearts, as for that subtle something, that quality of air, that emanation from old trees, that so wonderfully changes and renews a weary spirit.' - Robert Louis Stevenson"
 	},
-	// Column 2
+	// Column Two
 	{
 		"name": "Stone Works",
 		"happiness": 1,
@@ -214,7 +214,7 @@
 
 	// Classical Era
 
-	// Column 3
+	// Column Third
 	{
 		"name": "Lighthouse",
 		"cost": 75,
@@ -288,7 +288,7 @@
 		"requiredTech": "Construction",
 		"quote": "'Regard your soldiers as your children, and they will follow you into the deepest valleys; look on them as your own beloved sons, and they will stand by you even unto death.' - Sun Tzu"
 	},
-	// Column 4
+	// Column Four
 	{
 		"name": "Temple",
 		"faith": 2,
@@ -435,7 +435,7 @@
 
 	// Medieval Era
 
-	// Column 5
+	// Column Five
 	{
 		"name": "Garden",
 		"uniques": ["[+25]% Great Person generation [in this city]", "Must be next to [Fresh water]"],
@@ -533,7 +533,7 @@
 		"uniques": ["[+15]% Production when constructing [Land] units [in this city]",
 			"[+1 Production] from [Iron] tiles [in this city]"]
 	},
-	// Column 6
+	// Column Six
 	{
 		"name": "Harbor",
 		"cost": 120,
@@ -646,7 +646,7 @@
 
 	// Renaissance Era
 
-	// Column 7
+	// Column Seven
 	{
 		"name": "Observatory",
 		"maintenance": 0,
@@ -717,19 +717,6 @@
         "uniques": ["Only available <when espionage is enabled>", "[-25]% enemy spy effectiveness [in this city]"],
         "requiredTech": "Banking"
     },
-	// will be introduced in BNW expansion pack
-//	{
-//		"name": "Hanse",
-//		"replaces": "Bank",
-//		"uniqueTo": "Germany",
-//		"gold": 2,
-//		"specialistSlots": {"Merchant": 1},
-//		"hurryCostModifier": 15,
-//		"percentStatBonus": {"gold": 25},
-//		"uniques": ["+5% Production for every Trade Route with a City-State in the empire"],
-//		"requiredBuilding": "Market",
-//		"requiredTech": "Banking"
-//	},
 	{
 		"name": "Forbidden Palace",
 		"culture": 1,
@@ -766,7 +753,7 @@
 		"requiredTech": "Gunpowder",
 		"quote": "'Bushido is realized in the presence of death. This means choosing death whenever there is a choice between life and death. There is no other reasoning.' - Yamamoto Tsunetomo"
 	},
-	// Column 8
+	// Column Eight
 	{
 		"name": "Seaport",
 		"hurryCostModifier": 25,
@@ -847,7 +834,7 @@
 
 	// Industrial Era
 
-	// Column 9
+	// Column Nine
 	{
 		"name": "Museum",
 		"culture": 5,
@@ -916,7 +903,7 @@
 		"requiredTech": "Military Science",
 		"quote": "'Pale Death beats equally at the poor man's gate and at the palaces of kings.' - Horace"
 	},
-	// Column 10
+	// Column Ten
 	{
 		"name": "Hospital",
 		"food": 5,
@@ -954,7 +941,7 @@
 
 	// Modern Era
 
-	// Column 11
+	// Column Eleven
 	{
 		"name": "Stadium",
 		"happiness": 4,
@@ -1025,7 +1012,7 @@
 		"requiredTech": "Railroads",
 		"quote": "'...the location is one of the most beautiful to be found, holy and unapproachable, a worthy temple for the divine friend who has brought salvation and true blessing to the world.' - King Ludwig II of Bavaria"
 	},
-	// Column 12
+	// Column Twelve
 	{
 		"name": "Research Lab",
 		"science": 4,
@@ -1047,7 +1034,7 @@
 
 	// Atomic Era
 
-	// Column 13
+	// Column Thirteen
 	{
 		"name": "Medical Lab",
 		"requiredBuilding": "Hospital",
@@ -1071,7 +1058,7 @@
 		"requiredTech": "Combined Arms",
 		"quote": "'In preparing for battle I have always found that plans are useless, but planning is indispensable.' - Dwight D. Eisenhower"
 	},
-	// Column 14
+	// Column Fourteen
 	{
 		"name": "Solar Plant",
 		"production": 5,
@@ -1128,7 +1115,7 @@
 
 	// Information Era
 
-	// Column 15
+	// Column Fifteen
 	{
 		"name": "CN Tower",
 		"isWonder": true,
@@ -1166,7 +1153,7 @@
 		"uniques": ["[+50]% Production when constructing [Spaceship part] units [in this city]"],
 		"requiredTech": "Robotics"
 	},
-	// Column 16
+	// Column Sixteen
 	{
 		"name": "United Nations",
 		"isWonder": true,
