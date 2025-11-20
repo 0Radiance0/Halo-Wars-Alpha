@@ -80,8 +80,8 @@
 		"movement": 4,
 		"strength": 5,
 		"cost": 30,
-		"uniques": ["No damage penalty for wounded units", "Uncapturable", "Cannot be purchased", "Cannot embark", "May capture killed [Light Infantry], [Main Infantry], and [Heavy infantry] units <by consuming this unit>", "Never appears as a Rebels unit",
-		"[+1] movement <in [Blightlands] tiles"],
+		"uniques": ["No damage penalty for wounded units", "Uncapturable", "Cannot be purchased", "Cannot embark", "May capture killed [Light Infantry], [Main Infantry], and [Heavy infantry] units", "[This Unit] is destroyed <upon defeating a [Light Infantry], [Main Infantry], or [Heavy Infantry] unit>", "Never appears as a Rebels unit",
+		"[+1] Movement <in [Blightlands] tiles>"],
 		"replaces": "Warthog",
 		"uniqueTo": "The Flood"
 	},
