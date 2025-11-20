@@ -48,6 +48,14 @@
         "movementType": "Land"
     },
     {
+        "name": "Core Armor",
+        "movementType": "Land"
+    },
+    {
+        "name": "Heavy Armor",
+        "movementType": "Land"
+    },
+    {
         "name": "Naval Logistics",
         "movementType": "Water"
     },
