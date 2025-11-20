@@ -32,6 +32,10 @@
         "movementType": "Land"
     },
     {
+        "name": "Pure Form",
+        "movementType": "Land"
+    },
+    {
         "name": "Scout",
         "movementType": "Land"
     },
