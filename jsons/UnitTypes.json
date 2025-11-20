@@ -20,7 +20,15 @@
         "movementType": "Land"
     },
     {
-        "name": "Artillery",
+        "name": "Flood Light Infantry",
+        "movementType": "Land"
+    },
+    {
+        "name": "Flood Main Infantry",
+        "movementType": "Land"
+    },
+    {
+        "name": "Flood Heavy Infantry",
         "movementType": "Land"
     },
     {
@@ -28,23 +36,23 @@
         "movementType": "Land"
     },
     {
-        "name": "Mechanized Infantry",
+        "name": "Artillery",
         "movementType": "Land"
     },
     {
-        "name": "Armored",
+        "name": "Light Armor",
         "movementType": "Land"
     },
     {
-        "name": "Civilian Water",
+        "name": "Naval Logistics",
         "movementType": "Water"
     },
     {
-        "name": "Melee Water",
+        "name": "Naval Warship",
         "movementType": "Water"
     },
     {
-        "name": "Ranged Water",
+        "name": "Infested Naval Ship",
         "movementType": "Water"
     },
     {
@@ -53,16 +61,31 @@
         "uniques": ["Can enter ice tiles", "Invisible to non-adjacent units", "Can see invisible [Submarine] units"]
     },
     {
+        "name": "Infested Submarine",
+        "movementType": "Water",
+        "uniques": ["Can enter ice tiles", "Invisible to non-adjacent units", "Can see invisible [Submarine] units"]
+    },
+    {
         "name": "Aircraft Carrier",
         "movementType": "Water"
     },
     {
-        "name": "Fighter",
+        "name": "Space Fighter",
         "movementType": "Air",
-        "uniques": ["Aircraft", "[+4] Sight", "Can see over obstacles", "Can perform Air Sweep"]
+        "uniques": ["Aircraft", "[+6] Sight", "Can see over obstacles", "Can perform Air Sweep"]
+    },
+    {
+        "name": "Infested Space Fighter",
+        "movementType": "Air",
+        "uniques": ["Aircraft", "[+6] Sight", "Can see over obstacles", "Can perform Air Sweep"]
     },
     {
         "name": "Bomber",
+        "movementType": "Air",
+        "uniques": ["Aircraft"]
+    },
+    {
+        "name": "Infested Bomber",
         "movementType": "Air",
         "uniques": ["Aircraft"]
     },
@@ -72,13 +95,57 @@
         "uniques": ["Aircraft"]
     },
     {
+        "name": "Infested VTOL",
+        "movementType": "Air",
+        "uniques": ["Aircraft"]
+    },
+    {
+        "name": "Flood Air",
+        "movementType": "Air",
+        "uniques": ["Aircraft"]
+    },
+    {
+        "name": "Forerunner Air",
+        "movementType": "Air",
+        "uniques": ["Uncapturable"]
+    },
+    {
+        "name": "UNSC Uber Unit",
+        "movementType": "Air",
+        "uniques": ["Aircraft"]
+    },
+    {
+        "name": "Covenant Uber Unit",
+        "movementType": "Land",
+    },
+    {
+        "name": "UNSC Corvette",
+        "movementType": "Air",
+        "uniques": ["Aircraft"]
+    },
+    {
+        "name": "Covenant Corvette",
+        "movementType": "Air",
+        "uniques": ["Aircraft"]
+    },
+    {
+        "name": "UNSC Frigate",
+        "movementType": "Air",
+        "uniques": ["Aircraft"]
+    },
+    {
+        "name": "Infected Corvette",
+        "movementType": "Air",
+        "uniques": ["Aircraft"]
+    },
+    {
+        "name": "Infected Frigate",
+        "movementType": "Air",
+        "uniques": ["Aircraft"]
+    },
+    {
         "name": "Missile",
         "movementType": "Air",
         "uniques": ["Self-destructs when attacking", "Cannot be intercepted"]
-    },
-    {
-        "name": "Helicopter",
-        "movementType": "Land",
-        "uniques": ["Can pass through impassable tiles"]
     }
 ]
