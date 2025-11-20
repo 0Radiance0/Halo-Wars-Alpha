@@ -1,5 +1,5 @@
 [
-
+   [
 	{
 		"name": "Field Technicians",
 		"unitType": "Logistics",
@@ -94,7 +94,7 @@
 		"rangedStrength": 10,
 		"range": 2,
 		"cost": 100,
-		"uniques": ["Never appears as a Rebels unit", "Cannot be purchased", "Only available <in cities with a [Barracks]>", "Can transform to [Infected Marine] <for [The Flood] Civilizations>"]
+		"uniques": ["Never appears as a Rebels unit", "Cannot be purchased", "Only available <in cities with a [Barracks]>", "Can transform to [Infected Marines] <for [The Flood] Civilizations>"]
 	},
 	{
 		"name": "Grunt Squad",
@@ -107,7 +107,7 @@
 		"uniques": ["Never appears as a Rebels unit", "Cannot be purchased", "Only available <in cities with a [Hall]>", "Can transform to [Infected Grunts] <for [The Flood] Civilizations>"]
 	},
 	{
-		"name": "Infected Marine",
+		"name": "Infected Marines",
 		"unitType": "Flood Main Infantry",
 		"uniqueTo": "The Flood",
 		"replaces": "Marine",
@@ -140,7 +140,7 @@
 		"range": 2,
 		"cost": 80,
 		"uniques": ["Cannot enter ocean tiles", "May create improvements on water resources",
-            "Unbuildable", "Automation is a primary action"]
+            "Unbuildable", "Automation is a primary action", "Can transform to [Infected Marines] <for [The Flood] Civilizations>"]
 	},
 	{
 		"name": "Trireme",
@@ -991,30 +991,5 @@
             "[This Unit] gets a name from the [Admiral] group",
             "Great Person - [War]", "Unbuildable", "Uncapturable"],
 		"movement": 4
-	},
-
-	/* Religious units */
-
-	{
-		"name": "Missionary",
-		"unitType": "Civilian",
-		"uniques": [
-            "Can Spread Religion <for [4] movement> <[2] times> <after which this unit is consumed>",
-            "May enter foreign tiles without open borders, but loses [250] religious strength each turn it ends there",
-			"Can be purchased with [Faith] [in all cities in which the majority religion is a major religion]",
-			"[-1] Sight", "Unbuildable", "Religious Unit", "Only available <when religion is enabled>"],
-		"movement": 4,
-		"religiousStrength": 1000
-	},
-	{
-		"name": "Inquisitor",
-		"unitType": "Civilian",
-		"uniques": ["Prevents spreading of religion to the city it is next to",
-			"Can remove other religions from cities <in [Friendly] tiles> <once> <after which this unit is consumed>",
-            "Can be purchased with [Faith] [in all cities in which the majority religion is a major religion]",
-			"[+1] Sight", "Only available <when religion is enabled>", "Unbuildable", "Religious Unit"
-		],
-		"movement": 3
-	},
-
+	}
 ]
