@@ -1,6 +1,6 @@
 [
     {
-        "name": "Civilian",
+        "name": "Logistics",
         "movementType": "Land"
     },
     {
@@ -8,19 +8,19 @@
         "movementType": "Air"
     },
     {
-        "name": "Sword",
+        "name": "Light Infantry",
         "movementType": "Land"
     },
     {
-        "name": "Gunpowder",
+        "name": "Main Infantry",
         "movementType": "Land"
     },
     {
-        "name": "Archery",
+        "name": "Heavy Infantry",
         "movementType": "Land"
     },
     {
-        "name": "Ranged Gunpowder",
+        "name": "Artillery",
         "movementType": "Land"
     },
     {
@@ -28,7 +28,7 @@
         "movementType": "Land"
     },
     {
-        "name": "Mounted",
+        "name": "Mechanized Infantry",
         "movementType": "Land"
     },
     {
