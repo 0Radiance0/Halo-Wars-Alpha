@@ -16,7 +16,7 @@
     {
         "name": "Assimilation",
         "victoryScreenHeader": "Assimilate all life on the map to win.",
-        "milestones": ["Capture all cities"],
+        "milestones": ["Destroy all players"],
         "victoryString": "The Flood have consumed everything...can they truly still be stopped?",
         "defeatString": "The Flood have devoured what exists of your race here. There is nothing more to be said--the abomination leaves you no further time to ponder.",
     },
