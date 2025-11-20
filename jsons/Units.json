@@ -80,7 +80,7 @@
 		"movement": 4,
 		"strength": 5,
 		"cost": 30,
-		"uniques": ["No damage penalty for wounded units", "Uncapturable", "Cannot be purchased", "Cannot embark", "May capture killed [Light Infantry], [Main Infantry], and [Heavy infantry] units <by consuming this unit>", "Never appears as a Rebel unit",
+		"uniques": ["No damage penalty for wounded units", "Uncapturable", "Cannot be purchased", "Cannot embark", "May capture killed [Light Infantry], [Main Infantry], and [Heavy infantry] units <by consuming this unit>", "Never appears as a Barbarian unit",
 		"[+1] movement <in [Blightlands] tiles"],
 		"replaces": "Warthog",
 		"uniqueTo": "The Flood"
@@ -104,7 +104,7 @@
 		"rangedStrength": 9,
 		"range": 2,
 		"cost": 90,
-		"uniques": ["Only available <in cities with a [Hall]>"]
+		"uniques": ["Never appears as a Rebel unit", "Cannot be purchased", "Only available <in cities with a [Hall]>", "Can transform to [Infected Grunts] <for [The Flood] Civilizations>"]
 	},
 	{
 		"name": "Infected Marine",
@@ -116,8 +116,18 @@
 		"rangedStrength": 9,
 		"range": 2,
 		"cost": 100,
-		"uniques": ["Unbuildable", "Cannot be purchased", "[+2] movement <in [Blightlands] tiles>", "[This Unit] heals [6] HP <upon ending a turn in a [Blightlands] tile>"]
+		"uniques": ["Unbuildable", "Cannot be purchased", "[+2] Movement <in [Blightlands] tiles>", "[This Unit] heals [6] HP <upon ending a turn in a [Blightlands] tile>"]
 	},
+	{
+		"name": "Infected Grunts",
+		"unitType": "Flood Main Infantry",
+		"uniqueTo": "The Flood",
+		"movement": 2,
+		"strength": 7,
+		"rangedStrength": 7,
+		"range": 2,
+		"cost": 90,
+		"uniques": ["Unbuildable", "Cannot be purchased", "[+2] Movement <in [Blightlands] tiles>", "[This Unit] heals [6] HP <upon ending a turn in a [Blightlands] tile>"]
 	{
 		"name": "Rebel Infantry",
 		"unitType": "Rebel Infantry",
