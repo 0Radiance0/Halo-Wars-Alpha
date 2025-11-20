@@ -1,42 +1,35 @@
 [
-  /*
-
-      Here is a template to show what values should be filled in. 
-      Use the description at http://civdata.com/, and adjust the numbers accordingly.
-      Even then, its up to personal interpretation.
-      To generate lines with multiple parameters I used the function: (FirstParam + (SecondParam - 5) / 2)
-      Note: BNW leaders are included for now.
   {
-      "name": "Template",
-      // Stats focused personalities
-      "culture": Culture,
-      "faith": Religion,
-      "food": Growth,
-      "gold": Gold,
-      "happiness": Happiness,
-      "production": Production,
-      "science": Science,
-      // Behavour focused personalities
-      "military": Military Training,
-      "aggressive": Offensive or (10 - defensive) which ever is higher,
-      "declareWar": War,
-      "commerce": Gold + Chattiness,
-      "diplomacy": Diplomatic Balance + Friendly,
-      "loyal": Loyalty + Defense,
-      "expansion": Expansion,
+      "name": "Captain Cutter",
+      "culture": 4,
+      "faith": 0,
+      "food": 6,
+      "gold": 6,
+      "happiness": 6,
+      "production": 7,
+      "science": 7,
+      "boldness": 1,
+      "military": 8,
+      "aggressive": 2,
+      "warmongerHatred": 6
+      "declareWar": 4,
+      "commerce": 6,
+      "diplomacy": 7,
+      "loyal": 8,
+      "expansion": 6,
 
       "priorities": {
-          "Tradition": Culture + Wonder,
-          "Liberty": Expansion + TileImprovement,
-          "Honor": Boldness + War,
-          "Commerce": Gold + Chatiness,
-          "Patronage": CityStateCompetitiveness + CSFriendly,
-          "Piety": Faith + CS Friendly,
-          "Rationalism": Science + Spaceship,
-          "Freedom": Hapiness + Growth,
-          "Autocracy": Boldness + Military training,
-          "Order": Defensive + Production
+          "Tradition": 2,
+          "Liberty": 4,
+          "Honor": 4,
+          "Commerce": 3,
+          "Patronage": 2,
+          "Piety": 2,
+          "Rationalism": 4,
+          "Freedom": 4,
+          "Autocracy": 3,
+          "Order": 3
       },
       "civilopediaText": [
-          {"text": "Alexander the Great, born in Macedon, was one of the most skilled generals, even more by his young age, and in only 17 years he conquered all the Greek known world."}
+          {"text": "Captain Cutter is the commanding officer of the UNSC Spirit of Fire."}
       ]
