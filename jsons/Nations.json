@@ -53,7 +53,8 @@
 		"outerColor": [192,188,96],
 		"innerColor": [99,82,40],
 		"uniqueName": "Timeless Chorus",
-		"uniques": ["Start with +10 Food in all cities. Many Flood units can capture enemy units that they kill. [+1000] Happiness [in all cities]."],
+		"uniques": ["Start with +10 Food in all cities. Many Flood units can capture enemy units that they kill. [+1000] Happiness [in all cities].",
+		"When conquering an encampment, earn [50] Gold and recruit a Rebels unit."],
 		"cities": ["Gravemind", "Flood Colony"]
 	},
 	{
@@ -62,6 +63,7 @@
 		"innerColor": [185,12,12],
 		"uniques": ["Can only heal by pillaging", "Excluded from map editor",
 			"[Water] units gain the [Unable to pillage tiles] promotion"]
+		"replaces": "Barbarians"
 	}
 
 ]
