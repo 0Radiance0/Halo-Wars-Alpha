@@ -80,7 +80,7 @@
 		"movement": 4,
 		"strength": 5,
 		"cost": 30,
-		"uniques": ["No damage penalty for wounded units", "Uncapturable", "Cannot be purchased", "Cannot embark", "May capture killed [Light Infantry], [Main Infantry], and [Heavy infantry] units", "[This Unit] is destroyed <upon defeating a [Light Infantry], [Main Infantry], or [Heavy Infantry] unit>", "Never appears as a Rebels unit",
+		"uniques": ["No damage penalty for wounded units", "Uncapturable", "Cannot be purchased", "Cannot embark", "May capture killed [Light Infantry], [Main Infantry], [Heavy infantry], and [Special Forces] units <with [100]% chance>", "[This Unit] is destroyed <upon defeating a [Light Infantry], [Main Infantry], [Heavy Infantry] or [Special Forces] unit>", "Never appears as a Rebels unit",
 		"[+1] Movement <in [Blightlands] tiles>"],
 		"replaces": "Warthog",
 		"uniqueTo": "The Flood"
@@ -103,7 +103,22 @@
 		"movement": 3,
 		"strength": 20,
 		"cost": 110,
-		"uniques": ["Never appears as a Rebels unit", "Cannot be purchased", "Only available <in cities with a [Barracks]>", "[+40] Strength <vs [Light Infantry], [Main Infantry], [Heavy Infantry], [Flood Light Infantry], [Flood Main Infantry], [Flood Heavy Infantry], [Rebel Infantry], [Covenant Leader Unit], and [Flood Scout]>", "Can transform to [Infected Flamethrowers <for [The Flood] Civilizations>"]
+		"uniques": ["Never appears as a Rebels unit", "Cannot be purchased", "Only available <in cities with a [Barracks]>", 
+		"[+40] Strength <vs [Light Infantry], [Main Infantry], [Heavy Infantry], [Flood Light Infantry], [Flood Main Infantry], [Flood Heavy Infantry], [Rebel Infantry], [Covenant Leader Unit], and [Flood Scout]>", 
+		"Can transform to [Infected Flamethrowers <for [The Flood] Civilizations>"]
+	},
+	{
+		"name": "Spartan",
+		"unitType": "Special Forces",
+		"uniqueTo": "UNSC",
+		"movement": 3,
+		"strength": 40,
+		"rangedStrength": 30,
+		"range": 2,
+		"cost": 300,
+		"uniques": ["[+2] Sight", "Never appears as a Rebels unit", "Cannot be purchased", "Only available <in cities with a [Barracks]>", 
+			"Can move after attacking", "May capture killed [Light Armor], [Main Armor], and [Heavy Armor] units <with [100]% chance>",
+			"Can transform to [Infected Spartan] <for [The Flood] Civilizations>"]
 	},
 	{
 		"name": "Grunt Squad",
@@ -147,6 +162,18 @@
 		"cost": 110,
 		"uniques": ["Never appears as a Rebels unit", "Unbuildable", "Cannot be purchased", "[+2] Movement <in [Blightlands] tiles>", "[This Unit] heals [6] HP <upon ending a turn in a [Blightlands] tile>",
 			"[+40] Strength <vs [Light Infantry], [Main Infantry], [Heavy Infantry], [Flood Light Infantry], [Flood Main Infantry], [Flood Heavy Infantry], [Flood Scout], [Rebel Infantry], and [Hero Unit]>"]
+	},
+	{
+		"name": "Infected Spartan",
+		"unitType": "Flood Special Forces",
+		"uniqueTo": "The Flood",
+		"movement": 3,
+		"strength": 37,
+		"rangedStrength": 30,
+		"range": 2,
+		"cost": 300,
+		"uniques":  ["[+2] Sight", "Never appears as a Rebels unit", "Cannot be purchased", "[+2] Movement <in [Blightlands] tiles>", "[This Unit] heals [6] HP <upon ending a turn in a [Blightlands] tile>",
+			"Can move after attacking", "May capture killed [Light Armor], [Main Armor], and [Heavy Armor] units <with [100]% chance>"]
 	},
 	{
 		"name": "Rebel Infantry",
