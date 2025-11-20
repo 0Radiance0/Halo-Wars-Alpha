@@ -11,7 +11,18 @@
 		"unitType": "Logistics",
 		"movement": 2,
 		"uniques": ["Can build [Land] improvements on tiles", "Automation is a primary action"],
-		"cost": 70
+		"cost": 70,
+		"uniqueTo": "The Covenant",
+		"replaces": "Field Technicians"
+	},
+	{
+		"name": "Flood Constructor",
+		"unitType": "Logistics",
+		"movement": 2,
+		"uniques": ["Can build [Land] improvements on tiles", "Automation is a primary action", "May enter foreign tiles without open borders"],
+		"cost": 50
+		"uniqueTo": "The Flood",
+		"replaces": "Field Techncicians"
 	},
 	{
 		"name": "Settler",
@@ -47,7 +58,7 @@
 		"unitType": "Logistics",
 		"movement": 5,
 		"cost": 150,
-		"uniques": ["Founds a new city <by consuming this unit>", "Requires at least [2] population"],
+		"uniques": ["Founds a new city <by consuming this unit>", "Requires at least [2] population", "May enter foreign tiles without open borders"],
 		"replaces": "Settler",
 		"uniqueTo": "The Flood",
 		"hurryCostModifier": 50
@@ -91,7 +102,7 @@
 		"cost": 30,
 		"uniques": ["No damage penalty for wounded units", "Uncapturable", "Cannot be purchased", "Cannot embark", 
 		"May capture killed [Light Infantry], [Main Infantry], [Heavy infantry], and [Special Forces] units", "[This Unit] is destroyed <upon defeating a [Light Infantry], [Main Infantry], [Heavy Infantry] or [Special Forces] unit>", "Never appears as a Rebels unit",
-		"[+2] Movement <in [Blightlands] tiles>", "Cannot embark"],
+		"[+2] Movement <in [Blightlands] tiles>", "Cannot embark", "May enter foreign tiles without open borders"],
 		"replaces": "Warthog",
 		"uniqueTo": "The Flood"
 	},
@@ -185,7 +196,8 @@
 		"rangedStrength": 9,
 		"range": 2,
 		"cost": 100,
-		"uniques": ["Never appears as a Rebels unit", "Unbuildable", "Cannot be purchased", "[+2] Movement <in [Blightlands] tiles>", "[This Unit] heals [6] HP <upon ending a turn in a [Blightlands] tile>"]
+		"uniques": ["Never appears as a Rebels unit", "Unbuildable", "Cannot be purchased", "[+2] Movement <in [Blightlands] tiles>", 
+		"[This Unit] heals [6] HP <upon ending a turn in a [Blightlands] tile>", "May enter foreign tiles without open borders"]
 	},
 	{
 		"name": "Infected Grunts",
@@ -196,7 +208,8 @@
 		"rangedStrength": 7,
 		"range": 2,
 		"cost": 90,
-		"uniques": ["Never appears as a Rebels unit", "Unbuildable", "Cannot be purchased", "[+2] Movement <in [Blightlands] tiles>", "[This Unit] heals [6] HP <upon ending a turn in a [Blightlands] tile>"]
+		"uniques": ["Never appears as a Rebels unit", "Unbuildable", "Cannot be purchased", "[+2] Movement <in [Blightlands] tiles>", 
+		"[This Unit] heals [6] HP <upon ending a turn in a [Blightlands] tile>", "May enter foreign tiles without open borders"]
 	},
 	{
 		"name": "Infected Flamethrowers",
@@ -206,7 +219,8 @@
 		"strength": 20,
 		"cost": 110,
 		"uniques": ["Never appears as a Rebels unit", "Unbuildable", "Cannot be purchased", "[+2] Movement <in [Blightlands] tiles>", "[This Unit] heals [6] HP <upon ending a turn in a [Blightlands] tile>",
-			"[+150]% Strength <vs [Light Infantry], [Main Infantry], [Heavy Infantry], [Flood Light Infantry], [Flood Main Infantry], [Flood Heavy Infantry], [Flood Scout], [Rebel Infantry], and [Covenant Leader Unit]>"]
+		"[+150]% Strength <vs [Light Infantry], [Main Infantry], [Heavy Infantry], [Flood Light Infantry], [Flood Main Infantry], [Flood Heavy Infantry], [Flood Scout], [Rebel Infantry], and [Covenant Leader Unit]>",
+		"May enter foreign tiles without open borders"]
 	},
 	{
 	    "name": "Infected Jackals",
@@ -218,7 +232,8 @@
 		"range": 4,
 		"cost": 100,
 		"uniques": ["Never appears as a Rebels unit", "Cannot be purchased",
-		"[+150]% Strength <vs [Light Infantry], [Main Infantry], [Heavy Infantry], [Flood Light Infantry], [Flood Main Infantry], [Flood Heavy Infantry], [Rebel Infantry], [Covenant Leader Unit], and [Flood Scout]>"]
+		"[+150]% Strength <vs [Light Infantry], [Main Infantry], [Heavy Infantry], [Flood Light Infantry], [Flood Main Infantry], [Flood Heavy Infantry], [Rebel Infantry], [Covenant Leader Unit], and [Flood Scout]>",
+		"May enter foreign tiles without open borders"]
 	},
 	{
 		"name": "Infected Spartan",
@@ -230,7 +245,7 @@
 		"range": 2,
 		"cost": 300,
 		"uniques":  ["[+2] Sight", "Never appears as a Rebels unit", "Cannot be purchased", "[+2] Movement <in [Blightlands] tiles>", "[This Unit] heals [6] HP <upon ending a turn in a [Blightlands] tile>",
-			"Can move after attacking", "May capture killed [Light Armor], [Main Armor], and [Heavy Armor] units <with [100]% chance>"]
+		"Can move after attacking", "May capture killed [Light Armor], [Main Armor], and [Heavy Armor] units <with [100]% chance>", "May enter foreign tiles without open borders"]
 	},
 	{
 		"name": "Rebel Infantry",
@@ -243,7 +258,7 @@
 		"range": 2,
 		"cost": 80,
 		"uniques": ["Cannot enter ocean tiles", "May create improvements on water resources",
-            "Unbuildable", "Automation is a primary action", "Can transform to [Infected Marines] <for [The Flood] Civilizations>"]
+        "Unbuildable", "Automation is a primary action", "Can transform to [Infected Marines] <for [The Flood] Civilizations>"]
 	},
 	{
 		"name": "Trireme",
