@@ -3,13 +3,13 @@
 
 	// Always available
 	{
-		"name": "Palace",
+		"name": "Core",
 		"isNationalWonder": true,
 		"production": 3,
 		"science": 3,
 		"gold": 3,
-		"culture": 1,
-		"cityStrength": 2.5,
+		"culture": 3,
+		"cityStrength": 5,
 		"cost": 0,
 		"uniques": ["Indicates the capital city"]
 	},
