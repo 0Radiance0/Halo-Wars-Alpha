@@ -139,6 +139,16 @@
 		"uniques": ["Never appears as a Rebels unit", "Unbuildable", "Cannot be purchased", "[+2] Movement <in [Blightlands] tiles>", "[This Unit] heals [6] HP <upon ending a turn in a [Blightlands] tile>"]
 	},
 	{
+		"name": "Infected Flamethrowers",
+		"unitType": "Flood Light Infantry",
+		"uniqueTo": "The Flood",
+		"movement": 3,
+		"strength": 20,
+		"cost": 110,
+		"uniques": ["Never appears as a Rebels unit", "Unbuildable", "Cannot be purchased", "[+2] Movement <in [Blightlands] tiles>", "[This Unit] heals [6] HP <upon ending a turn in a [Blightlands] tile>",
+			"[+40] Strength <vs [Light Infantry], [Main Infantry], [Heavy Infantry], [Flood Light Infantry], [Flood Main Infantry], [Flood Heavy Infantry], [Flood Scout], [Rebel Infantry], and [Hero Unit]>"]
+	},
+	{
 		"name": "Rebel Infantry",
 		"unitType": "Rebel Infantry",
 		"uniqueTo": "Rebels",
