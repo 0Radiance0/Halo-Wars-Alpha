@@ -13,7 +13,7 @@
         "embarkDefense": 20,
         "startPercent": 0,
         "citySound": "cityInformation",
-        "iconRGB": [255, 87, 35]
+        "iconRGB": [116, 131, 78]
         "uniqueTo": "UNSC"
     },
     {
