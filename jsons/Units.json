@@ -94,7 +94,7 @@
 		"rangedStrength": 10,
 		"range": 2,
 		"cost": 100,
-		"uniques": ["Never appears as a Rebel unit", "Cannot be purchased", "Only available <in cities with a [Barracks]>"]
+		"uniques": ["Never appears as a Rebel unit", "Cannot be purchased", "Only available <in cities with a [Barracks]>", "Can transform to [Infected Marine] <for [The Flood] Civilizations>"]
 	},
 	{
 		"name": "Grunt Squad",
@@ -112,7 +112,7 @@
 		"uniqueTo": "The Flood",
 		"replaces": "Marine",
 		"movement": 2,
-		"strength": 12,
+		"strength": 9,
 		"rangedStrength": 9,
 		"range": 2,
 		"cost": 100,
