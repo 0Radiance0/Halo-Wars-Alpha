@@ -20,6 +20,14 @@
         "movementType": "Land"
     },
     {
+        "name": "Special Forces",
+        "movementType": "Land"
+    },
+    {
+        "name": "Flood Special Forces",
+        "movementType": "Land"
+    },
+    {
         "name": "Flood Light Infantry",
         "movementType": "Land"
     },
