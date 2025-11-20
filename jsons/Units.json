@@ -27,16 +27,20 @@
 		"name": "D20 Heron",
 		"unitType": "Logistics",
 		"movement": 5,
-		"cost": 200,
+		"cost": 300,
 		"uniques": ["Founds a new city <by consuming this unit>", "Requires at least [2] population"],
+		"replaces": "Settler",
+		"uniqueTo": "UNSC",
 		"hurryCostModifier": 50
 	},
 	{
 		"name": "Keep Constructor",
 		"unitType": "Logistics",
 		"movement": 5,
-		"cost": 180,
+		"cost": 250,
 		"uniques": ["Founds a new city <by consuming this unit>", "Requires at least [2] population"],
+		"replaces": "Settler",
+		"uniqueTo": "The Covenant",
 		"hurryCostModifier": 50
 	},
 	{
@@ -45,25 +49,28 @@
 		"movement": 5,
 		"cost": 150,
 		"uniques": ["Founds a new city <by consuming this unit>", "Requires at least [2] population"],
+		"replaces": "Settler",
+		"uniqueTo": "The Flood",
 		"hurryCostModifier": 50
 	},
 	{
 		"name": "Warthog",
 		"unitType": "Scout",
-		"movement": 2,
-		"strength": 20,
-		"cost": 100,
-		"uniques": ["[+3] Sight", "Never appears as a Rebel unit"],
-		"uniqueTo": "UNSC",
+		"movement": 4,
+		"strength": 30,
+		"cost": 150,
+		"uniques": ["[+3] Sight", "Never appears as a Rebel unit", "Cannot be purchased", "Cannot embark"],
 		"attackSound": "nonmetalhit"
 	},
 	{
 		"name": "Ghost",
 		"unitType": "Scout",
-		"movement": 3,
-		"strength": 30,
-		"cost": 90,
-		"uniques": ["[+3] Sight", "Never appears as a Rebel unit"]
+		"movement": 5,
+		"strength": 15,
+		"rangedStrength": 30,
+		"range": 2
+		"cost": 100,
+		"uniques": ["[+3] Sight", "Never appears as a Rebel unit", "Cannot be purchased"]
 		"replaces": "Warthog",
 		"uniqueTo": "The Covenant"
 	},
@@ -71,21 +78,19 @@
 		"name": "Infection Form",
 		"unitType": "Flood Scout",
 		"movement": 4,
-		"strength": 10,
+		"strength": 5,
 		"cost": 30,
-		"uniques": ["No damage penalty for wounded units", "Uncapturable", "May capture killed [Light Infantry] [Main Infantry] [Heavy infantry] units <by consuming this unit>."],
+		"uniques": ["No damage penalty for wounded units", "Uncapturable", "Cannot be purchased", "Cannot embark", "May capture killed [Light Infantry], [Main Infantry], and [Heavy infantry] units <by consuming this unit>", "Never appears as a Rebel unit"],
+		"replaces": "Warthog",
+		"uniqueTo": "The Flood"
 	},
 	{
-		"name": "Brute",
-		"unitType": "Sword",
-		"uniqueTo": "Barbarians",
-		"replaces": "Warrior",
+		"name": "Marine",
+		"unitType": "Main Infantry",
+		"uniqueTo": "UNSC",
 		"movement": 2,
-		"strength": 8,
-		"cost": 20,
-		"obsoleteTech": "Metal Casting",
-		"upgradesTo": "Swordsman",
-		"attackSound": "nonmetalhit"
+		"strength": 10,
+		"cost": 100
 	},
 	{
 		"name": "Archer",
