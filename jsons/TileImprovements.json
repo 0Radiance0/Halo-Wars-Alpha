@@ -319,7 +319,7 @@
 	{
 		"name": "Flood Base",
 		"terrainsCanBeBuiltOn": ["Land"],
-		"uniques": ["Ensures a minimum tile yield of [+10 Food, +2 Culture, +2 Production"],
+		"uniques": ["Ensures a minimum tile yield of [+10 Food, +2 Culture, +2 Production",
 		    "Unpillagable", "Irremovable", "Unbuildable", "Excluded from map editor"],
 		"uniqueTo": "The Flood",
 		"replaces": "City Center"
