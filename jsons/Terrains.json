@@ -157,8 +157,9 @@
 		"name": "Blightlands",
 		"type": "Land",
 		"movementCost": 3,
-		"RGB": [192, 188, 92],
-		"uniques": ["Does not generate naturally"]
+		"RGB": [192, 188, 96],
+		"uniques": ["Doesn't generate naturally",
+		"[+7 Food, +2 Production]", "[Neighboring tiles will convert to [Blightlands] <with 50% Chance]"
 
 	// Terrain features
 	{
