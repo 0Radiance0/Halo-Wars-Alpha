@@ -1,5 +1,4 @@
 [
-   [
 	{
 		"name": "Field Technicians",
 		"unitType": "Logistics",
@@ -690,7 +689,6 @@
 		"uniques": ["Never appears as a Barbarian unit"],
 		"promotions": ["Indirect Fire"],
 		"attackSound": "shipguns"
-		// Does not actually upgrade to Missile Cruisers
 	},
 	{
 		"name": "Machine Gun",
@@ -703,7 +701,6 @@
 		"requiredTech": "Ballistics",
 		"upgradesTo": "Mechanized Infantry",
 		"attackSound": "machinegun"
-		// Upgrades to Bazooka in BNW
 	},
 	{
 		"name": "Anti-Aircraft Gun",
@@ -811,7 +808,6 @@
 		"requiredTech": "Radar",
 		"uniques": ["May Paradrop to [Land] tiles up to [5] tiles away <in [{Friendly} {Land}] tiles>", "Never appears as a Barbarian unit"],
 		"attackSound": "shot"
-		// upgradesTo "XCOM Squad", "No Movement Cost to Pillage" in BNW
 	},
 	{
 		"name": "Tank",
@@ -891,7 +887,7 @@
 		"attackSound": "nuke"
 	},
 	{
-		// "Hovering unit" unique gives ability to get into impassable tiles - and only that (no vision bonus or flying over ocean)
+		// Hovering unit unique gives ability to get into impassable tiles - and only that (no vision bonus or flying over ocean)
 		// Unit embarks like any other ground unit and has penalty for attacking over river or from embarked state
 		"name": "Helicopter Gunship",
 		"unitType": "Helicopter",
@@ -1095,5 +1091,4 @@
             "Great Person - [War]", "Unbuildable", "Uncapturable"]
 		"movement": 4
 	}
-
 ]
