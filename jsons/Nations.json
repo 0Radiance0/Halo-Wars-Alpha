@@ -22,6 +22,7 @@
 		"name": "The Covenant",
 		"leaderName": "Ripa Moramee",
 		"preferredVictoryType": "Domination",
+		"personality": "Ripa Moramee",
 
 		"startIntroPart1": "Welcome to the Halo Wars mod.",
 		"startIntroPart2": "I'll add something else here when I find a reason to idk",
@@ -40,6 +41,7 @@
 		"name": "The Flood",
 		"leaderName": "The Gravemind",
 		"preferredVictoryType": "Assimilation",
+		"personality": "The Gravemind",
 
 		"startIntroPart1": "Welcome to the Halo Wars mod.",
 		"startIntroPart2": "The Flood are a particularly unique faction. They are intended to start weak but have the capability to snowball out of control if the other factions don't work to keep them contained. Use aggressive strategies to expand your early military capability by infecting enemy units, and fulfill your destiny!",
