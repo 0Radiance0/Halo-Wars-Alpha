@@ -90,7 +90,7 @@
 		"strength": 5,
 		"cost": 30,
 		"uniques": ["No damage penalty for wounded units", "Uncapturable", "Cannot be purchased", "Cannot embark", 
-		"May capture killed [Light Infantry], [Main Infantry], [Heavy infantry], and [Special Forces] units <with [80]% chance>", "[This Unit] is destroyed <upon defeating a [Light Infantry], [Main Infantry], [Heavy Infantry] or [Special Forces] unit>", "Never appears as a Rebels unit",
+		"May capture killed [Light Infantry], [Main Infantry], [Heavy infantry], and [Special Forces] units", "[This Unit] is destroyed <upon defeating a [Light Infantry], [Main Infantry], [Heavy Infantry] or [Special Forces] unit>", "Never appears as a Rebels unit",
 		"[+2] Movement <in [Blightlands] tiles>", "Cannot embark"],
 		"replaces": "Warthog",
 		"uniqueTo": "The Flood"
