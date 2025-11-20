@@ -15,7 +15,7 @@
 		"outerColor": [116,131,78],
 		"innerColor": [125,125,112],
 		"uniqueName": "Spirit of Fire",
-		"uniques": ["[+3] Movement <for [Armored] units>", "Start with 2 population in all cities."],
+		"uniques": ["[+3] Movement <for [Light Armor] units>", "Start with 2 population in all cities."],
 		"cities": ["Alpha Base","UNSC Station"]
 	},
 	{
