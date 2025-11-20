@@ -1,16 +1,21 @@
 [
     {
-        "name": "Halo Wars",
-        "researchAgreementCost": 150,
+        "name": "Tech Level One",
+        "researchAgreementCost": 1000,
+        "startingSettlerUnit": "Settler",
         "startingSettlerCount": 1, 
         "startingWorkerCount": 0,
+        "startingMilitaryUnit": "Warthog",
         "startingMilitaryUnitCount": 1,
-        "startingMilitaryUnit": "Rifleman",
         "settlerPopulation": 1,
+        "startingSupplies": 800
         "baseUnitBuyCost": 200,
-        "embarkDefense": 3,
+        "embarkDefense": 20,
         "startPercent": 0,
-        "citySound": "cityAncient",
+        "citySound": "cityInformation",
         "iconRGB": [255, 87, 35]
-    }
+        "uniqueTo": "UNSC"
+    },
+    {
+        "name": "
 ]
