@@ -34,7 +34,7 @@
 		"outerColor": [117,96,179],
 		"innerColor": [236,254,254],
 		"uniqueName": "The Arbiter",
-		"uniques": ["No damage penalty for wounded units <for [Elite] units>"],
+		"uniques": ["Gain a unique Leader Unit, Arbiter Ripa Moramee. No damage penalty for wounded units <for [Elite] units>"],
 		"cities": ["The Great Keep", "Outpost"]
 	},
 	{
