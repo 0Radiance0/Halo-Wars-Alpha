@@ -17,9 +17,9 @@
 	{
 		"columnNumber": 1,
 		"era": "Tech Level One",
-		"techCost": 35,
-		"buildingCost": 60,
-		"wonderCost": 185,
+		"techCost": 40,
+		"buildingCost": 140,
+		"wonderCost": 500,
 		"techs": [
 			{
 				"name": "Pottery",
