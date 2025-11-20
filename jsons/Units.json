@@ -172,7 +172,7 @@
 		"ranged Strength": 30,
 		"range": 2,
 		"cost": 150,
-		"uniques" ["Never appears as a Rebels unit", "Cannot be purchased", "Only available <in cities with a [Hall]>",
+		"uniques": ["Never appears as a Rebels unit", "Cannot be purchased", "Only available <in cities with a [Hall]>",
 			"Uncapturable"]
 	},
 	{
