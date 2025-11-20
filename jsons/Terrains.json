@@ -157,7 +157,7 @@
 		"name": "Blightlands",
 		"type": "Land",
 		"movementCost": 3,
-		"RGB": [],
+		"RGB": [192, 188, 92],
 		"uniques": ["Does not generate naturally"]
 
 	// Terrain features
