@@ -4,8 +4,8 @@
         "movementType": "Land"
     },
     {
-        "name": "Microscopic",
-        "movementType": "Air"
+        "name": "Flood Scout",
+        "movementType": "Land"
     },
     {
         "name": "Light Infantry",
