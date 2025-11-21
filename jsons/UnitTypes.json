@@ -4,6 +4,11 @@
         "movementType": "Land"
     },
     {
+        "name": "Forerunner Logistics",
+        "movementType": "Air",
+        "uniques": ["Aircraft"]
+    },
+    {
         "name": "Flood Scout",
         "movementType": "Land"
     },
