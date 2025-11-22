@@ -3,14 +3,16 @@
 		"name": "Field Technicians",
 		"unitType": "Logistics",
 		"movement": 2,
-		"uniques": ["Unpurchasable", "Can build [Land] improvements on tiles", "Automation is a primary action"],
+		"uniques": ["Unpurchasable", "Can build [Land] improvements on tiles", "Automation is a primary action",
+		"Can transform to [Infected Technicians] <for [The Flood] Civilizations>"],
 		"cost": 80
 	},
 	{
 		"name": "Grunt Workers",
 		"unitType": "Logistics",
 		"movement": 2,
-		"uniques": ["Unpurchasable", "Can build [Land] improvements on tiles", "Automation is a primary action"],
+		"uniques": ["Unpurchasable", "Can build [Land] improvements on tiles", "Automation is a primary action",
+		"Can transform to [Infected Grunt Workers] <for [The Flood] Civilizations>"],
 		"cost": 70,
 		"uniqueTo": "The Covenant",
 		"replaces": "Field Technicians"
@@ -19,8 +21,9 @@
 		"name": "Flood Constructor",
 		"unitType": "Logistics",
 		"movement": 2,
-		"uniques": ["Can build [Land] improvements on tiles", "Automation is a primary action", "May enter foreign tiles without open borders"],
-		"cost": 50
+		"uniques": ["Can build [Land] improvements on tiles", "Automation is a primary action", 
+		"May enter foreign tiles without open borders", "[+3] Movement in [Blightlands] tiles"],
+		"cost": 50,
 		"uniqueTo": "The Flood",
 		"replaces": "Field Technicians"
 	},
@@ -33,6 +36,24 @@
 		"replaces": "Field Technicians",
 		"uniques": ["Can build [Land] improvements on tiles", "Can speed up construction of a building", "Can speed up the construction of a wonder",
 		"May create improvements on water resources", "Can pass through impassable tiles"]
+	},
+	{
+		"name": "Infected Technicians",
+		"unitType": "Logistics",
+		"movement": 2,
+		"cost": 80,
+		"uniqueTo": "The Flood",
+		"uniques": ["Can build [Land] improvements on tiles", "Automation is a primary action", 
+		"[+2] Movement in [Blightlands] tiles", "Can transform to [Carrier Form]"]
+	},
+	{
+		"name": "Infected Grunt Workers",
+		"unitType": "Logistics",
+		"movement": 2,
+		"cost": 70,
+		"uniqueTo": "The Flood",
+		"uniques": ["Can build [Land] improvements on tiles", "Automation is a primary action",
+		"[+2] Movement in [Blightlands] tiles", "Can transform to [Carrier Form]"]
 	},
 	{
 		"name": "Settler",
@@ -48,7 +69,7 @@
 		"unitType": "Logistics",
 		"movement": 5,
 		"cost": 300,
-		"uniques": ["Founds a new city <by consuming this unit>", "Requires at least [2] population"],
+		"uniques": ["Uncapturable", "Founds a new city <by consuming this unit>", "Requires at least [2] population"],
 		"replaces": "Settler",
 		"uniqueTo": "UNSC",
 		"hurryCostModifier": 50
@@ -58,7 +79,7 @@
 		"unitType": "Logistics",
 		"movement": 5,
 		"cost": 250,
-		"uniques": ["Founds a new city <by consuming this unit>", "Requires at least [2] population"],
+		"uniques": ["Uncapturable", "Founds a new city <by consuming this unit>", "Requires at least [2] population"],
 		"replaces": "Settler",
 		"uniqueTo": "The Covenant",
 		"hurryCostModifier": 50
@@ -68,7 +89,8 @@
 		"unitType": "Logistics",
 		"movement": 5,
 		"cost": 150,
-		"uniques": ["Founds a new city <by consuming this unit>", "Requires at least [2] population", "May enter foreign tiles without open borders"],
+		"uniques": ["Uncapturable", "Founds a new city <by consuming this unit>", "Requires at least [2] population", 
+		"May enter foreign tiles without open borders"],
 		"replaces": "Settler",
 		"uniqueTo": "The Flood",
 		"hurryCostModifier": 50
@@ -78,10 +100,11 @@
 		"unitType": "Forerunner Logistics",
 		"movement": 4,
 		"cost": 400,
-		"uniques": ["Founds a new city <by consuming this unit>", "Requires at least [2] population", "May enter foreign tiles without open borders"],
+		"uniques": ["Uncapturable", "Founds a new city <by consuming this unit>", "Requires at least [2] population", 
+		"May enter foreign tiles without open borders"],
 		"replaces": "Settler",
 		"uniqueTo": "Forerunner Remnant",
-		"hurryCostModifier": 0
+		"hurryCostModifier": 50
 	},
 	{
 		"name": "Warthog",
@@ -89,7 +112,9 @@
 		"movement": 4,
 		"strength": 30,
 		"cost": 150,
-		"uniques": ["[+3] Sight", "Never appears as a Rebels unit", "Cannot be purchased", "Cannot embark"],
+		"uniques": ["Cannot be purchased", "[+3] Sight", "Cannot embark", 
+		"Can transform to [Infected Warthog] <for [The Flood] Civilizations",
+		"[-20] Strength <vs [Core Armor] and [Heavy Armor]>"],
 	},
 	{
 		"name": "Truck",
@@ -97,7 +122,7 @@
 		"movement": 4,
 		"strength": 10,
 		"cost": 90,
-		"uniques": ["[+3] Sight"],
+		"uniques": ["Cannot be purchased", "[+3] Sight", "Can transform to [Infected Truck] <for [The Flood] Civilizations>"],
 		"uniqueTo": "Barbarians",
 		"replaces": "Warthog"
 	},
@@ -107,9 +132,9 @@
 		"movement": 5,
 		"strength": 15,
 		"rangedStrength": 30,
-		"range": 2
+		"range": 2,
 		"cost": 100,
-		"uniques": ["[+3] Sight", "Cannot be purchased"]
+		"uniques": ["Cannot be purchased", "[+3] Sight", "Can transform to [Infected Ghost] <for [The Flood] Civilizations>"]
 		"uniqueTo": "The Covenant"
 		"replaces": "Warthog",
 	},
@@ -120,7 +145,8 @@
 		"strength": 5,
 		"cost": 30,
 		"uniques": ["No damage penalty for wounded units", "Cannot be purchased", "Cannot embark", 
-		"May capture killed [Light Infantry], [Main Infantry], [Heavy infantry], and [Special Forces] units", "[This Unit] is destroyed <upon defeating a [Light Infantry], [Main Infantry], [Heavy Infantry] or [Special Forces] unit>", "Never appears as a Rebels unit",
+		"May capture killed [Light Infantry], [Main Infantry], [Heavy infantry], and [Special Forces] units", 
+		"[This Unit] is destroyed <upon defeating a [Light Infantry], [Main Infantry], [Heavy Infantry] or [Special Forces] unit>",
 		"[+2] Movement <in [Blightlands] tiles>", "Cannot embark", "May enter foreign tiles without open borders"],
 		"replaces": "Warthog",
 		"uniqueTo": "The Flood"
@@ -134,7 +160,8 @@
 		"rangedStrength": 10,
 		"range": 2,
 		"cost": 100,
-		"uniques": ["Cannot be purchased", "Only available <in cities with a [Barracks]>", "Can transform to [Infected Marines] <for [The Flood] Civilizations>"]
+		"uniques": ["Cannot be purchased", "Only available <in cities with a [Barracks]>", 
+		"Can transform to [Infected Marines] <for [The Flood] Civilizations>"]
 	},
 	{
 		"name": "Flamethrowers",
@@ -152,13 +179,13 @@
 		"unitType": "Special Forces",
 		"uniqueTo": "UNSC",
 		"movement": 3,
-		"strength": 40,
+		"strength": 30,
 		"rangedStrength": 30,
 		"range": 2,
 		"cost": 300,
 		"uniques": ["[+2] Sight", "Cannot be purchased", "Only available <in cities with a [Barracks]>", 
-			"Can move after attacking", "May capture killed [Light Armor], [Main Armor], and [Heavy Armor] units <with [100]% chance>",
-			"Can transform to [Infected Spartan] <for [The Flood] Civilizations>"]
+		"Can move after attacking", "May capture killed [Light Armor], [Main Armor], and [Heavy Armor] units",
+		"Can transform to [Infected Spartan] <for [The Flood] Civilizations>"]
 	},
 	{
 		"name": "ODSTs",
@@ -171,7 +198,7 @@
 		"cost": 150,
 		"replaces": "Marine",
 		"uniques": ["[+2] Sight", "[+25]% Strength <vs [Light Armor]", 
-			"May Paradrop to [All] tiles up to [200] tiles away", "Can transform to [Infected Marines] <for [The Flood Civilizations>"]
+		"May Paradrop to [All] tiles up to [200] tiles away", "Can transform to [Infected Marines] <for [The Flood Civilizations>"]
 	},
 	{
 		"name": "Grunt Squad",
@@ -182,7 +209,8 @@
 		"rangedStrength": 9,
 		"range": 2,
 		"cost": 90,
-		"uniques": ["Cannot be purchased", "Only available <in cities with a [Hall]>", "Can transform to [Infected Grunts] <for [The Flood] Civilizations>"]
+		"uniques": ["Cannot be purchased", "Only available <in cities with a [Hall]>", 
+		"Can transform to [Infected Grunts] <for [The Flood] Civilizations>"]
 	},
 	{
 		"name": "Suicide Grunts",
@@ -233,7 +261,8 @@
 		"range": 2,
 		"cost": 100,
 		"uniques": ["Unbuildable", "Cannot be purchased", "[+2] Movement <in [Blightlands] tiles>", 
-		"[This Unit] heals [6] HP <upon ending a turn in a [Blightlands] tile>", "May enter foreign tiles without open borders"]
+		"[This Unit] heals [6] HP <upon ending a turn in a [Blightlands] tile>", "May enter foreign tiles without open borders",
+		"Can transform to [Carrier Form]"]
 	},
 	{
 		"name": "Infected Grunts",
@@ -245,7 +274,8 @@
 		"range": 2,
 		"cost": 90,
 		"uniques": ["Unbuildable", "Cannot be purchased", "[+2] Movement <in [Blightlands] tiles>", 
-		"[This Unit] heals [6] HP <upon ending a turn in a [Blightlands] tile>", "May enter foreign tiles without open borders"]
+		"[This Unit] heals [6] HP <upon ending a turn in a [Blightlands] tile>", "May enter foreign tiles without open borders",
+		"Can transform to [Carrier Form]"]
 	},
 	{
 		"name": "Infected Suicide Grunts",
@@ -256,7 +286,7 @@
 		"cost": 120,
 		"uniques": ["Unbuildable", "Cannot be purchased", "May capture killed [Light Infantry], [Main Infantry], [Heavy Infantry], [Rebel Infantry], and [Special Forces] units",
 		"Blast radius [1]", "Self-destructs when attacking", "[+2] Movement in <[Blightlands] tiles>",
-		"[This Unit] heals [6] HP <upon ending a turn in a [Blightlands] tile>"]
+		"[This Unit] heals [6] HP <upon ending a turn in a [Blightlands] tile>", "Can transform to [Carrier Form]"]
 	},
 	{
 		"name": "Infected Flamethrowers",
@@ -265,9 +295,10 @@
 		"movement": 3,
 		"strength": 20,
 		"cost": 110,
-		"uniques": ["Unbuildable", "Cannot be purchased", "[+2] Movement <in [Blightlands] tiles>", "[This Unit] heals [6] HP <upon ending a turn in a [Blightlands] tile>",
+		"uniques": ["Unbuildable", "Cannot be purchased", "[+2] Movement <in [Blightlands] tiles>", 
+		"[This Unit] heals [6] HP <upon ending a turn in a [Blightlands] tile>",
 		"[+150]% Strength <vs [Light Infantry], [Main Infantry], [Heavy Infantry], [Flood Light Infantry], [Flood Main Infantry], [Flood Heavy Infantry], [Flood Scout], [Rebel Infantry], and [Covenant Leader Unit]>",
-		"May enter foreign tiles without open borders"]
+		"May enter foreign tiles without open borders", "Can transform to [Carrier Form]"]
 	},
 	{
 	    "name": "Infected Jackals",
@@ -276,11 +307,11 @@
 		"movement": 3,
 		"strength": 7,
 		"rangedStrength": 15,
-		"range": 4,
+		"range": 3,
 		"cost": 100,
 		"uniques": ["Cannot be purchased",
 		"[+150]% Strength <vs [Light Infantry], [Main Infantry], [Heavy Infantry], [Flood Light Infantry], [Flood Main Infantry], [Flood Heavy Infantry], [Rebel Infantry], [Covenant Leader Unit], and [Flood Scout]>",
-		"May enter foreign tiles without open borders"]
+		"May enter foreign tiles without open borders", "Can transform to [Carrier Form]"]
 	},
 	{
 		"name": "Infected Spartan",
@@ -291,8 +322,10 @@
 		"rangedStrength": 30,
 		"range": 2,
 		"cost": 300,
-		"uniques": ["[+2] Sight", "Cannot be purchased", "[+2] Movement <in [Blightlands] tiles>", "[This Unit] heals [6] HP <upon ending a turn in a [Blightlands] tile>",
-		"Can move after attacking", "May capture killed [Light Armor], [Main Armor], and [Heavy Armor] units <with [100]% chance>", "May enter foreign tiles without open borders"]
+		"uniques": ["[+2] Sight", "Cannot be purchased", "[+2] Movement <in [Blightlands] tiles>", 
+		"[This Unit] heals [6] HP <upon ending a turn in a [Blightlands] tile>", "Can move after attacking", 
+		"May capture killed [Light Armor], [Main Armor], and [Heavy Armor] units", 
+		"May enter foreign tiles without open borders"]
 	},
 	{
 		"name": "Carrier Form",
@@ -330,6 +363,8 @@
 	{
 		"name": "Offensive Protector",
 		"unitType": "Forerunner Air",
+		"uniqueTo": "Forerunner Remnant",
+		"replaces": "Warthog",
 		"movement": 5,
 		"strength": 10,
 		"cost": 50,
@@ -338,10 +373,11 @@
 	{
 		"name": "Littoral Combat Ship",
 		"unitType": "Naval Warship",
+		"uniqueTo": "UNSC",
 		"movement": 7,
 		"strength": 50,
 		"rangedStrength": 60,
-		"range": 2,
+		"range": 4,
 		"cost": 200,
 		"requiredTech": "Early Naval Construction",
 		"uniques": ["Cannot be purchased", "Can only be built <in cities with a [Shipyard]>", "Can only be built <in cities with a [Reactor]>"]
@@ -349,6 +385,7 @@
 	{
 		"name": "Ship of the Line",
 		"unitType": "Naval Warship",
+		"uniqueTo": "UNSC",
 		"movement": 5,
 		"strength": 70,
 		"rangedStrength": 80,
@@ -377,10 +414,10 @@
 		"movement": 5,
 		"strength": 50,
 		"rangedStrength": 70,
-		"range": 3,
+		"range": 4,
 		"cost": 300,
-		"uniques": ["No defensive terrain bonus", "Rough terrain penalty", "Can only be built <in cities with a [Vehicle Depot]>", 
-		"Can only be built in cities with a [Advanced Reactor]>", "Can move after attacking", "Blast radius [1]"]
+		"uniques": ["Cannot be purchased", "No defensive terrain bonus", "Rough terrain penalty", "Can only be built <in cities with a [Vehicle Depot]>", 
+		"Can only be built <in cities with a [Advanced Reactor]>", "Can move after attacking", "Blast radius [1]"]
 	},
 	{
 		"name": "Cobra",
@@ -391,78 +428,86 @@
 		"rangedStrength": 80,
 		"range": 3,
 		"cost": 250,
-		"uniques": ["Rough terrain penalty", "[+50] Strength <vs [Light Armor], [Core Armor], and [Heavy Armor] units", 
+		"uniques": ["Cannot be purchased", "Rough terrain penalty", "[+50] Strength <vs [Light Armor], [Core Armor], and [Heavy Armor] units", 
 		"Must set up to ranged attack", "Can only be built <in cities with a [Vehicle Depot]>", "Can only be built <in cities with a [Advanced Reactor]>"]
 	},
 	{
 		"name": "Wolverine",
 		"unitType": "Core Armor",
+		"uniqueTo": "UNSC",
 		"movement": 6,
 		"strength": 30,
 		"rangedStrength": 30,
 		"range": 2,
 		"interceptRange": 4,
 		"cost": 200,
-		"uniques": ["[+5] Strength <vs [Scout] units>", "Can move after attacking", "Can only be built <in cities with a [Vehicle Depot]>",
+		"uniques": ["Cannot be purchased", "[+5] Strength <vs [Scout] units>", "Can move after attacking", "Can only be built <in cities with a [Vehicle Depot]>",
 		"Can only be built <in cities with a [Advanced Reactor]>"]
 	},
 	{
-		"name": "Marauder",
-		"unitType": "Sword",
-		"replaces": "Spearman",
-		"uniqueTo": "Barbarians",
-		"movement": 2,
-		"strength": 10,
-		"cost": 56,
-		"requiredTech": "Bronze Working",
-		"obsoleteTech": "Civil Service",
-		"upgradesTo": "Pikeman",
-		"uniques": ["[+50]% Strength <vs [Mounted] units>"],
-		"attackSound": "metalhit"
+		"name": "Wraith",
+		"unitType": "Core Armor",
+		"uniqueTo": "The Covenant",
+		"movement": 5,
+		"strength": 45,
+		"rangedStrength": 60,
+		"range": 3,
+		"cost": 240,
+		"uniques": ["Cannot be purchased", "No defensive terrain bonus", "Can only be built <in cities with a [Factory]>", 
+		"Can only be built <if [Temple] is constructed in at least [1] of [in all cities] cities>"]
 	},
-
-	/* Classical Era */
 	{
-		"name": "Horseman",
-		"unitType": "Mounted",
+		"name": "Revenant",
+		"unitType": "Light Armor",
+		"uniqueTo": "The Covenant",
+		"movement": 8,
+		"strength": 37,
+		"rangedStrength": 40,
+		"range": 3,
+		"cost": 160,
+		"uniques": ["Cannot be purchased", "Can move after attacking", "No defensive terrain bonus", "Can only be built <in cities with a [Factory]>"]
+	},
+	{
+		"name": "Locust",
+		"unitType": "Light Armor",
 		"movement": 4,
+		"strength": 20,
+		"rangedStrength": 20,
+		"range": 6,
+		"cost": 190,
+		"uniques": ["Cannot be purchased", "No defensive terrain bonus", "Withdraws before melee combat", "Can pass through impassable tiles",
+		"[3] additional attacks per turn", "[+200]% Strength <vs cities>"]
+	},
+	{
+		"name": "Infected Warthog",
+		"unitType": "Flood Scout",
+		"uniqueTo": "The Flood",
+		"movement": 4,
+		"strength": 26,
+		"cost": 150,
+		"uniques": ["Cannot be purchased", "[+3] Sight", "Cannot embark", 
+		"[-20] Strength <vs [Core Armor] and [Heavy Armor]", "[This Unit] heals [6] HP <upon ending a turn in a [Blightlands] tile>"]
+	},
+	{
+		"name": "Infected Truck",
+		"unitType": "Flood Scout",
+		"uniqueTo": "The Flood",
+		"movement": 4,
+		"strength": 10,
+		"cost": 90,
+		"uniques": ["Cannot be purchased", "[+3] Sight", "[This Unit] heals [6] HP <upon ending a turn in a [Blightlands] tile>"]
+	},
+	{
+		"name": "Infected Ghost",
+		"unitType": "Flood Scout",
+		"uniqueTo": "The Flood",
+		"movement": 5,
 		"strength": 12,
-		"cost": 75,
-		"requiredTech": "Horseback Riding",
-		"requiredResource": "Horses",
-		"upgradesTo": "Knight",
-		"obsoleteTech": "Chivalry",
-		"uniques": ["Can move after attacking","No defensive terrain bonus","[-33]% Strength <vs cities> <when attacking>" ],
-		"hurryCostModifier": 20,
-		"attackSound": "horse"
+		"rangedStrength": 30,
+		"range": 2,
+		"cost": 100,
+		"uniques": ["Cannot be purchased", "[+3] Sight", "[This Unit] heals [6] HP <upon ending a turn in a [Blightlands] tile>"]
 	},
-	{
-		"name": "Composite Bowman",
-		"unitType": "Archery",
-		"movement": 2,
-		"strength": 7,
-		"rangedStrength": 11,
-		"cost": 75,
-		"requiredTech": "Construction",
-		"obsoleteTech": "Machinery",
-		"upgradesTo": "Crossbowman",
-		"attackSound": "arrow"
-	},
-	{
-		"name": "Swordsman",
-		"unitType": "Sword",
-		"movement": 2,
-		"strength": 14,
-		"cost": 75,
-		"requiredTech": "Iron Working",
-		"upgradesTo": "Longswordsman",
-		"obsoleteTech": "Steel",
-		"requiredResource": "Iron",
-		"hurryCostModifier": 20,
-		"attackSound": "metalhit"
-	},
-
-	// Medieval Era
 	{
 		"name": "Pikeman",
 		"unitType": "Sword",
