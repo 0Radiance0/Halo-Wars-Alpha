@@ -836,7 +836,7 @@
 		"rangedStrength": 30,
 		"range": 2,
 		"cost": 90,
-		"uniques": ["Unbuildable", "Uncapturable", "Cannot be purchased", "Can move after attacking", "No defensive terrain bonus",
+		"uniques": ["Unbuildable", "Cannot be purchased", "Can move after attacking", "No defensive terrain bonus",
 		"[-50]% Strength <vs cities>"]
 	},
 	{
@@ -848,8 +848,18 @@
 		"rangedStrength": 30,
 		"range": 1,
 		"cost": 140,
-		"uniques": ["Unbuildable", "[+50]% Strength <vs cities> <when attacking>", "No defensive terrain bonus",
+		"uniques": ["Unbuildable", "Cannot be purchased", "[+50]% Strength <vs cities> <when attacking>", "No defensive terrain bonus",
 		"Can carry [2] [Infection Form] units", "Free [Infection Form] appears <upon damaging a [Land] unit>"]	
+	},
+	{
+		"name": "Spore Cloud",
+		"unitType": "Flood Air",
+		"uniqueTo": "The Flood",
+		"movement": 2,
+		"strength": 25,
+		"cost": 50,
+		"uniques": ["Unbuildable", "Cannot be purchased", "Self-destructs when attacking", 
+		"May capture killed [Scout], [Light Infantry], [Main Infantry], [Heavy Infantry], [Special Forces], and [Light Armor] units"]
 	},
 	{
 		"name": "Flood Root",
@@ -865,7 +875,7 @@
 		"unitType": "Flood Structure",
 		"movement": 1,
 		"strength": 30,
-		"cost": 100,
+		"cost": 120,
 		"uniques": ["Unbuildable", "Cannot be purchased", "Cannot move", "Cannot attack", "Free [Carrier Form] appears <costs [2] [Biomass]",
 		"Free [Thrasher Form] appears <costs [4] [Biomass]>"]
 	},
@@ -879,32 +889,20 @@
 		"Free [Flood Swarm] appears <costs [1] [Biomass]", "Free [Bomber Form] appears <costs [3] [Biomass]"]
 	},
 	{
-		"name": "Ironclad",
-		"unitType": "Melee Water",
-		"movement": 3,
-		"strength": 45,
-		"cost": 250,
-		"requiredTech": "Steam Power",
-		"requiredResource": "Coal",
-		"upgradesTo": "Destroyer",
-		"obsoleteTech": "Combustion",
-		"uniques": ["[+33]% Strength <vs cities>","Double movement in [Coast]", "Never appears as a Barbarian unit"],
-		"attackSound": "shipguns"
+		"name": "Flood Egg",
+		"unitType": "Flood Structure",
+		"movement": 1,
+		"strength": 10,
+		"cost": 50,
+		"uniques": ["Unbuildable", "Cannot be purchased", "Cannot move", "Cannot attack", "Free [Infection Form] appears <upon being defeated>"
 	},
-
-	// Modern era
-
 	{
-		"name": "Submarine",
-		"unitType": "Submarine",
+		"name": "Flood Stalk",
+		"unitType": "Flood Structure",
 		"movement": 5,
 		"strength": 35,
-		"rangedStrength": 60,
-		"cost": 325,
-		"requiredTech": "Refrigeration",
-		"upgradesTo": "Nuclear Submarine",
-		"uniques": ["[+75]% Strength <when attacking>", "Can only attack [Water] tiles", "Never appears as a Barbarian unit"],
-		"attackSound": "torpedo"
+		"cost": 80,
+		"uniques": ["Unbuildable", "Cannot be purchased", "Cannot move", "Cannot attack", "Free [Spore Cloud] appears <upon being defeated>"]
 	},
 	{
 		"name": "Great War Infantry",
