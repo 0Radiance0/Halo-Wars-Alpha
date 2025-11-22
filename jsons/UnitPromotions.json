@@ -10,37 +10,34 @@
         "column": 0
     },
 
-	// Ranged+Siege
+	// UNSC Promotions
+	
 	{
-		"name": "Accuracy I",
-		"uniques": ["[+15]% Strength <when fighting in [Open terrain] tiles> <when attacking>", "[-90]% weight to this choice for AI decisions"],
-		"unitTypes": ["Siege","Archery","Ranged Gunpowder"],
+		"name": "Gunner",
+		"uniques": ["Only available <if [Reactor] is constructed>", "[+2] Range", "[+1] additional attacks per turn"],
         "column": 1,
         "row": 1
     },
 	{
-		"name": "Accuracy II",
-		"prerequisites": ["Accuracy I"],
-		"uniques": ["[+15]% Strength <when fighting in [Open terrain] tiles> <when attacking>"],
-		"unitTypes": ["Siege","Archery","Ranged Gunpowder"],
-        "column": 1,
-        "row": 2
+		"name": "Grenadier",
+		"prerequisites": ["Gunner"],
+		"uniques": ["[+25]% Strength <vs [Light Infantry], [Main Infantry], [Flood Light Infantry], [Flood Main Infantry], and [Rebel Infantry] units"],
+        "column": 2,
+        "row": 1
     },
 	{
-		"name": "Accuracy III",
-		"prerequisites": ["Accuracy II"],
-		"uniques": ["[+15]% Strength <when fighting in [Open terrain] tiles> <when attacking>"],
-		"unitTypes": ["Siege","Archery","Ranged Gunpowder"],
-        "column": 1,
-        "row": 3
+		"name": "Gauss Cannon",
+		"prerequisites": ["Grenadier"],
+		"uniques": ["[+100]% Strength <vs [Scout], [Flood Scout], [Light Armor], [VTOL], and [Bomber] units <when attacking>"],
+        "column": 3,
+        "row": 1
     },
 
 	{
-		"name": "Barrage I",
-		"uniques": ["[+15]% Strength <when fighting in [Rough terrain] tiles> <when attacking>", "[-90]% weight to this choice for AI decisions"],
-		"unitTypes": ["Siege","Archery","Ranged Gunpowder"],
-        "column": 2,
-        "row": 1
+		"name": "New Blood",
+		"uniques": [""],
+        "column": 1,
+        "row": 2
 	},
 	{
 		"name": "Barrage II",
