@@ -174,6 +174,11 @@
         "uniques": ["Never appears as a Barbarian unit"]
     },
     {
+        "name": "Infested Carrier",
+        "movementType": "Water",
+        "uniques": ["Uncapturable", "Never appears as a Barbarian unit"]
+    },
+    {
         "name": "Space Fighter",
         "movementType": "Air",
         "uniques": ["Aircraft", "[+6] Sight", "Can see over obstacles", "Can perform Air Sweep", "Never appears as a Barbarian unit"]
