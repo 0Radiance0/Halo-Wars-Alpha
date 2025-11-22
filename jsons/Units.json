@@ -368,7 +368,7 @@
 		"strength": 10,
 		"cost": 80,
 		"uniques": ["Unbuildable", "Cannot be purchased", "[This Unit] heals [6] HP <upon ending a turn in a [Blightlands] tile>",
-		"Self-destructs when attacking", "May capture killed [Scout], [Light Infantry], [Main Infantry], [Heavy Infantry], [Special Forces], and [Rebel Infantry] units",
+		"Self-destructs when attacking", "May capture killed [Scout], [Light Armor], [Light Infantry], [Main Infantry], [Heavy Infantry], [Special Forces], and [Rebel Infantry] units",
 		"Can carry [3] [Infection Form] units"]
 	},
 	{
@@ -872,7 +872,8 @@
 		"range": 1,
 		"cost": 140,
 		"uniques": ["Unbuildable", "Cannot be purchased", "[+50]% Strength <vs cities> <when attacking>", "No defensive terrain bonus",
-		"Can carry [2] [Infection Form] units", "Free [Infection Form] appears <upon damaging a [Land] unit>"]	
+		"Can carry [2] [Infection Form] units", "Free [Infection Form] appears <upon damaging a [Land] unit>",
+		"May capture killed [Scout], [Light Infantry], [Main Infantry], [Heavy Infantry], [Special Forces], [Rebel Infantry], and [Light Armor]"]	
 	},
 	{
 		"name": "Spore Cloud",
@@ -882,7 +883,7 @@
 		"strength": 25,
 		"cost": 50,
 		"uniques": ["Unbuildable", "Cannot be purchased", "Self-destructs when attacking", 
-		"May capture killed [Scout], [Light Infantry], [Main Infantry], [Heavy Infantry], [Special Forces], and [Light Armor] units"]
+		"May capture killed [Scout], [Light Infantry], [Main Infantry], [Heavy Infantry], [Rebel Infantry] and [Special Forces] units"]
 	},
 	{
 		"name": "Flood Root",
@@ -923,11 +924,23 @@
 	{
 		"name": "Flood Stalk",
 		"unitType": "Flood Structure",
-		"movement": 5,
+		"movement": 1,
 		"strength": 35,
 		"cost": 80,
 		"uniques": ["Unbuildable", "Cannot be purchased", "Cannot move", "Cannot attack", 
 		"Free [Spore Cloud] appears <upon being defeated>", "Free [Spore Cloud] appears <by consuming this unit>"]
+	},
+	{
+		"name": "Flood Launcher",
+		"unitType": "Flood Structure",
+		"movement": 1,
+		"strength": 40,
+		"rangedStrength": 20,
+		"range": 6,
+		"interceptRange": 6,
+		"cost": 300,
+		"uniques": ["Unbuildable", "Cannot be purchased", "Cannot move", "[+20]% Damage when intercepting",
+		"May capture killed [Scout], [Light Infantry], [Main Infantry], [Heavy Infantry], [Rebel Infantry], [Special Forces], [Light Armor], [Core Armor], [Heavy Armor], [Naval Warship], [Submarine], [Aircraft Carrier], [VTOL], [Bomber], [UNSC Corvette], [Covenant Corvette], and [UNSC Frigate] units"]
 	},
 	{
 	/* Covenant Leader Units */
