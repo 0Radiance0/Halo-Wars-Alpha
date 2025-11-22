@@ -109,7 +109,7 @@
 		"rangedStrength": 30,
 		"range": 2
 		"cost": 100,
-		"uniques": ["[+3] Sight", "Never appears as a Rebels unit", "Cannot be purchased"]
+		"uniques": ["[+3] Sight", "Cannot be purchased"]
 		"uniqueTo": "The Covenant"
 		"replaces": "Warthog",
 	},
@@ -119,7 +119,7 @@
 		"movement": 4,
 		"strength": 5,
 		"cost": 30,
-		"uniques": ["No damage penalty for wounded units", "Uncapturable", "Cannot be purchased", "Cannot embark", 
+		"uniques": ["No damage penalty for wounded units", "Cannot be purchased", "Cannot embark", 
 		"May capture killed [Light Infantry], [Main Infantry], [Heavy infantry], and [Special Forces] units", "[This Unit] is destroyed <upon defeating a [Light Infantry], [Main Infantry], [Heavy Infantry] or [Special Forces] unit>", "Never appears as a Rebels unit",
 		"[+2] Movement <in [Blightlands] tiles>", "Cannot embark", "May enter foreign tiles without open borders"],
 		"replaces": "Warthog",
@@ -134,7 +134,7 @@
 		"rangedStrength": 10,
 		"range": 2,
 		"cost": 100,
-		"uniques": ["Never appears as a Rebels unit", "Cannot be purchased", "Only available <in cities with a [Barracks]>", "Can transform to [Infected Marines] <for [The Flood] Civilizations>"]
+		"uniques": ["Cannot be purchased", "Only available <in cities with a [Barracks]>", "Can transform to [Infected Marines] <for [The Flood] Civilizations>"]
 	},
 	{
 		"name": "Flamethrowers",
@@ -143,7 +143,7 @@
 		"movement": 3,
 		"strength": 20,
 		"cost": 110,
-		"uniques": ["Never appears as a Rebels unit", "Cannot be purchased", "Only available <in cities with a [Barracks]>", 
+		"uniques": ["Cannot be purchased", "Only available <in cities with a [Barracks]>", 
 		"[+150]% Strength <vs [Light Infantry], [Main Infantry], [Heavy Infantry], [Flood Light Infantry], [Flood Main Infantry], [Flood Heavy Infantry], [Rebel Infantry], [Covenant Leader Unit], and [Flood Scout]>", 
 		"Can transform to [Infected Flamethrowers <for [The Flood] Civilizations>"]
 	},
@@ -156,7 +156,7 @@
 		"rangedStrength": 30,
 		"range": 2,
 		"cost": 300,
-		"uniques": ["[+2] Sight", "Never appears as a Rebels unit", "Cannot be purchased", "Only available <in cities with a [Barracks]>", 
+		"uniques": ["[+2] Sight", "Cannot be purchased", "Only available <in cities with a [Barracks]>", 
 			"Can move after attacking", "May capture killed [Light Armor], [Main Armor], and [Heavy Armor] units <with [100]% chance>",
 			"Can transform to [Infected Spartan] <for [The Flood] Civilizations>"]
 	},
@@ -170,40 +170,57 @@
 		"range": 2,
 		"cost": 150,
 		"replaces": "Marine",
-		"uniques": ["[+2] Sight", "Never appears as a Rebels unit", "[+25]% Strength <vs [Light Armor]", 
+		"uniques": ["[+2] Sight", "[+25]% Strength <vs [Light Armor]", 
 			"May Paradrop to [All] tiles up to [200] tiles away", "Can transform to [Infected Marines] <for [The Flood Civilizations>"]
 	},
 	{
 		"name": "Grunt Squad",
 		"unitType": "Main Infantry",
+		"uniqueTo": "The Covenant",
 		"movement": 2,
 		"strength": 9,
 		"rangedStrength": 9,
 		"range": 2,
 		"cost": 90,
-		"uniques": ["Never appears as a Rebels unit", "Cannot be purchased", "Only available <in cities with a [Hall]>", "Can transform to [Infected Grunts] <for [The Flood] Civilizations>"]
+		"uniques": ["Cannot be purchased", "Only available <in cities with a [Hall]>", "Can transform to [Infected Grunts] <for [The Flood] Civilizations>"]
+	},
+	{
+		"name": "Suicide Grunts",
+		"unitType": "Special Forces",
+		"uniqueTo": "Ripa Moramee",
+		"movement": 2,
+		"strength": 30,
+		"cost": 120,
+		"uniques": ["Cannot be purchased", "Can transform to [Infected Suicide Grunts] <for [The Flood] Civilizations>",
+		"Can only be built <if [Temple] is constructed in at least [1] of [in all cities] cities", "Blast radius [1]", 
+		"Self-destructs when attacking", "Destroys tile improvements when attacking", "Unable to capture cities"]
 	},
 	{
 		"name": "Jackal Snipers",
 		"unitType": "Light Infantry",
+		"uniqueTo": "The Covenant",
 		"movement": 3,
 		"strength": 5,
 		"rangedStrength": 20,
 		"range": 4,
 		"cost": 100,
-		"uniques": ["Never appears as a Rebels unit", "Cannot be purchased", "Only available <in cities with a [Hall]>",
-			"Can transform to [Infected Jackals] <for [The Flood] Civilizations>", "[+150]% Strength <vs [Light Infantry], [Main Infantry], [Heavy Infantry], [Flood Light Infantry], [Flood Main Infantry], [Flood Heavy Infantry], [Rebel Infantry], [Covenant Leader Unit], and [Flood Scout]>"]
+		"uniques": ["Cannot be purchased", "Only available <in cities with a [Hall]>",
+		"Can transform to [Infected Jackals] <for [The Flood] Civilizations>", 
+		"[+150]% Strength <vs [Light Infantry], [Main Infantry], [Heavy Infantry], [Flood Light Infantry], [Flood Main Infantry], [Flood Heavy Infantry], [Rebel Infantry], [Covenant Leader Unit], and [Flood Scout]>"]
 	},
 	{
 		"name": "Hunters",
 		"unitType": "Heavy Infantry",
+		"uniqueTo": "The Covenant",
 		"movement": 2,
 		"strength": 30,
 		"ranged Strength": 30,
 		"range": 2,
 		"cost": 150,
-		"uniques": ["Never appears as a Rebels unit", "Cannot be purchased", "Only available <in cities with a [Hall]>",
-			"Uncapturable"]
+		"uniques": ["Cannot be purchased", "Only available <in cities with a [Hall]>",
+		"Uncapturable", "Can only be built <if [Temple] is constructed in at least [1] of [in all cities] cities>",
+		"[+30] Strength <vs [Scout] units>", "[+30] Strength <vs [Light Armor] units>", "[+30] Strength <vs [Core Armor] units>",
+		"[+20] Strength <vs [Heavy Armor] units>", "[+30] Strength <vs [Flood Scout] units>"]
 	},
 	{
 		"name": "Infected Marines",
@@ -215,7 +232,7 @@
 		"rangedStrength": 9,
 		"range": 2,
 		"cost": 100,
-		"uniques": ["Never appears as a Rebels unit", "Unbuildable", "Cannot be purchased", "[+2] Movement <in [Blightlands] tiles>", 
+		"uniques": ["Unbuildable", "Cannot be purchased", "[+2] Movement <in [Blightlands] tiles>", 
 		"[This Unit] heals [6] HP <upon ending a turn in a [Blightlands] tile>", "May enter foreign tiles without open borders"]
 	},
 	{
@@ -227,8 +244,19 @@
 		"rangedStrength": 7,
 		"range": 2,
 		"cost": 90,
-		"uniques": ["Never appears as a Rebels unit", "Unbuildable", "Cannot be purchased", "[+2] Movement <in [Blightlands] tiles>", 
+		"uniques": ["Unbuildable", "Cannot be purchased", "[+2] Movement <in [Blightlands] tiles>", 
 		"[This Unit] heals [6] HP <upon ending a turn in a [Blightlands] tile>", "May enter foreign tiles without open borders"]
+	},
+	{
+		"name": "Infected Suicide Grunts",
+		"unitType": "Flood Special Forces",
+		"uniqueTo": "The Flood",
+		"movement": 2,
+		"strength": 30,
+		"cost": 120,
+		"uniques": ["Unbuildable", "Cannot be purchased", "May capture killed [Light Infantry], [Main Infantry], [Heavy Infantry], [Rebel Infantry], and [Special Forces] units",
+		"Blast radius [1]", "Self-destructs when attacking", "[+2] Movement in <[Blightlands] tiles>",
+		"[This Unit] heals [6] HP <upon ending a turn in a [Blightlands] tile>"]
 	},
 	{
 		"name": "Infected Flamethrowers",
@@ -237,7 +265,7 @@
 		"movement": 3,
 		"strength": 20,
 		"cost": 110,
-		"uniques": ["Never appears as a Rebels unit", "Unbuildable", "Cannot be purchased", "[+2] Movement <in [Blightlands] tiles>", "[This Unit] heals [6] HP <upon ending a turn in a [Blightlands] tile>",
+		"uniques": ["Unbuildable", "Cannot be purchased", "[+2] Movement <in [Blightlands] tiles>", "[This Unit] heals [6] HP <upon ending a turn in a [Blightlands] tile>",
 		"[+150]% Strength <vs [Light Infantry], [Main Infantry], [Heavy Infantry], [Flood Light Infantry], [Flood Main Infantry], [Flood Heavy Infantry], [Flood Scout], [Rebel Infantry], and [Covenant Leader Unit]>",
 		"May enter foreign tiles without open borders"]
 	},
@@ -250,7 +278,7 @@
 		"rangedStrength": 15,
 		"range": 4,
 		"cost": 100,
-		"uniques": ["Never appears as a Rebels unit", "Cannot be purchased",
+		"uniques": ["Cannot be purchased",
 		"[+150]% Strength <vs [Light Infantry], [Main Infantry], [Heavy Infantry], [Flood Light Infantry], [Flood Main Infantry], [Flood Heavy Infantry], [Rebel Infantry], [Covenant Leader Unit], and [Flood Scout]>",
 		"May enter foreign tiles without open borders"]
 	},
@@ -263,7 +291,7 @@
 		"rangedStrength": 30,
 		"range": 2,
 		"cost": 300,
-		"uniques":  ["[+2] Sight", "Never appears as a Rebels unit", "Cannot be purchased", "[+2] Movement <in [Blightlands] tiles>", "[This Unit] heals [6] HP <upon ending a turn in a [Blightlands] tile>",
+		"uniques":  ["[+2] Sight", "Cannot be purchased", "[+2] Movement <in [Blightlands] tiles>", "[This Unit] heals [6] HP <upon ending a turn in a [Blightlands] tile>",
 		"Can move after attacking", "May capture killed [Light Armor], [Main Armor], and [Heavy Armor] units <with [100]% chance>", "May enter foreign tiles without open borders"]
 	},
 	{
