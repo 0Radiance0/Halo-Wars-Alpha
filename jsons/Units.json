@@ -261,16 +261,13 @@
         "Unbuildable", "Automation is a primary action", "Can transform to [Infected Marines] <for [The Flood] Civilizations>"]
 	},
 	{
-		"name": "Trireme",
-		"unitType": "Melee Water",
-		"movement": 4,
-		"strength": 10,
-		"cost": 45,
+		"name": "Sentinel",
+		"unitType": "Forerunner Air",
+		"movement": 5,
+		"strength": 15,
+		"cost": 50,
 		"requiredTech": "Sailing",
-		"uniques": ["Cannot enter ocean tiles", "Never appears as a Barbarian unit"],
-		"upgradesTo": "Caravel",
-		"obsoleteTech": "Astronomy",
-		"attackSound": "nonmetalhit"
+		"uniques": ["Uncapturable", "Can see over obstacles", "[+10] Strength <vs [The Flood]"]
 	},
 	{
 		"name": "Quinquereme",
