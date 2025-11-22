@@ -70,8 +70,8 @@
 		"defeated": "..."
 		"introduction": "<Identifying new target.>"
 		"declaringFriendship": "<Target reclassified as Friendly.>"
-		"outerColor": [],
-		"innterColor": [],
+		"outerColor": [164,180,191],
+		"innerColor": [119,127,133],
 		"uniqueName": "Reclamation",
 		"uniques": ["Free [Constructor Sentinel] appears <upon founding a city>. All units can fly. Access to advanced structures."],
 		"cities": ["Trove Core", "Forerunner Base"]
