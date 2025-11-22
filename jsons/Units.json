@@ -70,7 +70,6 @@
 		"strength": 30,
 		"cost": 150,
 		"uniques": ["[+3] Sight", "Never appears as a Rebels unit", "Cannot be purchased", "Cannot embark"],
-		"attackSound": "nonmetalhit"
 	},
 	{
 		"name": "Truck",
