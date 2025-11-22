@@ -455,6 +455,30 @@
 		"uniques": ["[+2] Sight", "Unbuildable", "Cannot be purchased", "[1] additional attacks per turn"]
 	},
 	{
+		"name": "Arsenal Carrier",
+		"unitType": "Aircraft Carrier",
+		"uniqueTo": "UNSC",
+		"movement": 3,
+		"strength": 70,
+		"cost": 500,
+		"requiredTech": "Wet Fleet",
+		"uniques": ["[+6] Sight", "Cannot be purchased", "Can only be built <in cities with a [Shipyard]>",
+		"Can only be built <in cities with a [Advanced Reactor]>", "Can carry [8] [VTOL] units", "Can carry [3] [Main Infantry] units",
+		"Can carry [3] [Special Forces] units", "Can carry [1] [Scout] units", "Can transform to [Infested Carrier] <for [The Flood] Civilizations>"]
+	},
+	{
+		"name": "Infested Carrier",
+		"unitType": "Aircraft Carrier",
+		"uniqueTo": "UNSC",
+		"movement": 3,
+		"strength": 70,
+		"cost": 500,
+		"requiredTech": "Wet Fleet",
+		"uniques": ["[+6] Sight", "Cannot be purchased", "Can only be built <in cities with a [Shipyard]>",
+		"Can only be built <in cities with a [Advanced Reactor]>", "Can carry [8] [VTOL] units", "Can carry [3] [Main Infantry] units",
+		"Can carry [3] [Special Forces] units", "Can carry [1] [Scout] units", "Can transform to [Infested Carrier] <for [The Flood] Civilizations>"]
+	},
+	{
 		"name": "Elephant",
 		"unitType": "Heavy Armor",
 		"uniqueTo": "Captain Cutter",
