@@ -291,9 +291,28 @@
 		"rangedStrength": 30,
 		"range": 2,
 		"cost": 300,
-		"uniques":  ["[+2] Sight", "Cannot be purchased", "[+2] Movement <in [Blightlands] tiles>", "[This Unit] heals [6] HP <upon ending a turn in a [Blightlands] tile>",
+		"uniques": ["[+2] Sight", "Cannot be purchased", "[+2] Movement <in [Blightlands] tiles>", "[This Unit] heals [6] HP <upon ending a turn in a [Blightlands] tile>",
 		"Can move after attacking", "May capture killed [Light Armor], [Main Armor], and [Heavy Armor] units <with [100]% chance>", "May enter foreign tiles without open borders"]
 	},
+	{
+		"name": "Carrier Form",
+		"unitType": "Flood Main Infantry",
+		"uniqueTo": "The Flood",
+		"movement": 3,
+		"strength": 10,
+		"cost": 80,
+		"uniques": ["Unbuildable", "Cannot be purchased", "[This Unit] heals [6] HP <upon ending a turn in a [Blightlands] tile>",
+		"Self-destructs when attacking", "May capture killed [Scout], [Light Infantry], [Main Infantry], [Heavy Infantry], [Special Forces], and [Rebel Infantry] units"]
+	},
+	{
+		"name": "Thrasher Form",
+		"unitType": "Flood Heavy Infantry",
+		"uniqueTo": "The Flood",
+		"movement": 4,
+		"strength": 28,
+		"cost": 150,
+		"uniques": ["Cannot be purchased", "[This Unit] heals [6] HP <upon ending a turn in a [Blightlands] tile>",
+		"[+100]% Strength <vs [Scout], [Light Armor], and [Core Armor] units", "[+150]% Strength <vs [Heavy Armor] and [Artillery] units"]
 	{
 		"name": "Rebel Infantry",
 		"unitType": "Rebel Infantry",
@@ -338,7 +357,7 @@
 		"uniques": ["Cannot be purchased", "Can only be built <in cities with a [Shipyard]>", "Can only be built <in cities with a [Advanced Reactor]>"],
 	},
 	{
-		"name": "Chariot Archer",
+		"name": "Archer",
 		"unitType": "Archery",
 		"movement": 4,
 		"strength": 6,
