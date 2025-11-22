@@ -303,24 +303,25 @@
 	{
 		"name": "UNSC Base",
 		"terrainsCanBeBuiltOn": ["Land"],
-		"uniques": ["Ensures a minimum tile yield of [+4 Food, +8 Production, +3 Science]",
-			"Unpillagable", "Irremovable", "Unbuildable", "Excluded from map editor"],
+		"uniques": ["Ensures a minimum tile yield of [+4 Food, +8 Production, +1 Culture, +3 Science]",
+		"Unpillagable", "Irremovable", "Unbuildable", "Excluded from map editor"],
 		"uniqueTo": "UNSC",
 		"replaces": "City Center"
 	},
 	{
 		"name": "Covenant Base",
 		"terrainsCanBeBuiltOn": ["Land"],
-		"uniques": ["Ensures a minimum tile yield of [+5 Food, +3 Culture, +5 Science, +4 Production]",
-			"Unpillagable", "Irremovable", "Unbuildable", "Excluded from map editor"],
+		"uniques": ["Ensures a minimum tile yield of [+5 Food, +3 Culture, +3 Science, +8 Production]",
+		"Unpillagable", "Irremovable", "Unbuildable", "Excluded from map editor"],
 		"uniqueTo": "The Covenant",
 		"replaces": "City Center"
 	},
 	{
 		"name": "Flood Base",
 		"terrainsCanBeBuiltOn": ["Land"],
-		"uniques": ["Ensures a minimum tile yield of [+10 Food, +2 Culture, +2 Production",
-		    "Unpillagable", "Irremovable", "Unbuildable", "Excluded from map editor"],
+		"uniques": ["Ensures a minimum tile yield of [+10 Food, +2 Culture, +2 Production]",
+		"Unpillagable", "Irremovable", "Unbuildable", "Excluded from map editor", 
+		"Provides [1] [Biomass] <once> <every [1] turns> <for [The Flood] Civilizations>"],
 		"uniqueTo": "The Flood",
 		"replaces": "City Center"
 	},
