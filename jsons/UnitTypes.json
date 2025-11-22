@@ -10,6 +10,26 @@
         "uniques": ["Uncapturable", "Aircraft", "Never appears as a Barbarian unit"]
     },
     {
+        "name": "Land Structure",
+        "movementType": "Land",
+        "uniques": ["Never appears as a Barbarian unit"]
+    },
+    {
+        "name": "Naval Structure",
+        "movementType": "Water",
+        "uniques": ["Never appears as a Barbarian unit"]
+    },
+    {
+        "name": "Aerial Structure",
+        "movementType": "Air",
+        "uniques": ["Never appears as a Barbarian unit"]
+    },
+    {
+        "name": "Flood Structure",
+        "movementType": "Land",
+        "uniques": ["Uncapturable", "Never appears as a Barbarian unit"]
+    },
+    {
         "name": "Flood Scout",
         "movementType": "Land"
         "uniques": ["Never appears as a Barbarian unit"]
