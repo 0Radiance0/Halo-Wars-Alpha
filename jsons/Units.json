@@ -3,14 +3,14 @@
 		"name": "Field Technicians",
 		"unitType": "Logistics",
 		"movement": 2,
-		"uniques": ["Can build [Land] improvements on tiles", "Automation is a primary action"],
+		"uniques": ["Unpurchasable", "Can build [Land] improvements on tiles", "Automation is a primary action"],
 		"cost": 80
 	},
 	{
 		"name": "Grunt Workers",
 		"unitType": "Logistics",
 		"movement": 2,
-		"uniques": ["Can build [Land] improvements on tiles", "Automation is a primary action"],
+		"uniques": ["Unpurchasable", "Can build [Land] improvements on tiles", "Automation is a primary action"],
 		"cost": 70,
 		"uniqueTo": "The Covenant",
 		"replaces": "Field Technicians"
@@ -23,6 +23,16 @@
 		"cost": 50
 		"uniqueTo": "The Flood",
 		"replaces": "Field Technicians"
+	},
+	{
+		"name": "Constructor Sentinel",
+		"unitType": "Forerunner Logistics",
+		"movement": 2,
+		"cost": 30,
+		"uniqueTo": "Forerunner Remnant",
+		"replaces": "Field Technicians",
+		"uniques": ["Can build [Land] improvements on tiles", "Can speed up construction of a building", "Can speed up the construction of a wonder",
+		"May create improvements on water resources", "Can pass through impassable tiles"]
 	},
 	{
 		"name": "Settler",
@@ -64,6 +74,16 @@
 		"hurryCostModifier": 50
 	},
 	{
+		"name": "Forerunner Base Constructor",
+		"unitType": "Forerunner Logistics",
+		"movement": 4,
+		"cost": 400,
+		"uniques": ["Founds a new city <by consuming this unit>", "Requires at least [2] population", "May enter foreign tiles without open borders"],
+		"replaces": "Settler",
+		"uniqueTo": "Forerunner Remnant",
+		"hurryCostModifier": 0
+	},
+	{
 		"name": "Warthog",
 		"unitType": "Scout",
 		"movement": 4,
@@ -90,8 +110,8 @@
 		"range": 2
 		"cost": 100,
 		"uniques": ["[+3] Sight", "Never appears as a Rebels unit", "Cannot be purchased"]
-		"replaces": "Warthog",
 		"uniqueTo": "The Covenant"
+		"replaces": "Warthog",
 	},
 	{
 		"name": "Infection Form",
@@ -265,22 +285,18 @@
 		"movement": 5,
 		"strength": 15,
 		"cost": 50,
-		"requiredTech": "Sailing",
 		"uniques": ["Uncapturable", "Can see over obstacles", "[+10] Strength <vs [The Flood]"]
 	},
 	{
-		"name": "Quinquereme",
-		"unitType": "Melee Water",
-		"uniqueTo": "Carthage",
-		"replaces": "Trireme",
+		"name": "Littoral Combat Ship",
+		"unitType": "UNSC Naval Warship",
+		"uniqueTo": "UNSC",
 		"movement": 4,
-		"strength": 13,
-		"cost": 45,
-		"requiredTech": "Sailing",
-		"uniques": ["Cannot enter ocean tiles"],
-		"upgradesTo": "Caravel",
-		"obsoleteTech": "Astronomy",
-		"attackSound": "nonmetalhit"
+		"strength": 50,
+		"rangedStrength": 60
+		"range": 3,
+		"cost": 200,
+		"requiredTech": "Wet Fleet",
 	},
 	{
 		"name": "Galley",
