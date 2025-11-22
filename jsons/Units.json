@@ -8,6 +8,15 @@
 		"cost": 80
 	},
 	{
+		"name": "Infected Technicians",
+		"unitType": "Logistics",
+		"movement": 2,
+		"cost": 80,
+		"uniqueTo": "The Flood",
+		"uniques": ["Can build [Land] improvements on tiles", "Automation is a primary action", 
+		"[+2] Movement in [Blightlands] tiles", "Can transform to [Carrier Form]"]
+	},
+	{
 		"name": "Grunt Workers",
 		"unitType": "Logistics",
 		"movement": 2,
@@ -16,6 +25,15 @@
 		"cost": 70,
 		"uniqueTo": "The Covenant",
 		"replaces": "Field Technicians"
+	},
+	{
+		"name": "Infected Grunt Workers",
+		"unitType": "Logistics",
+		"movement": 2,
+		"cost": 70,
+		"uniqueTo": "The Flood",
+		"uniques": ["Can build [Land] improvements on tiles", "Automation is a primary action",
+		"[+2] Movement in [Blightlands] tiles", "Can transform to [Carrier Form]"]
 	},
 	{
 		"name": "Flood Constructor",
@@ -36,24 +54,6 @@
 		"replaces": "Field Technicians",
 		"uniques": ["Can build [Land] improvements on tiles", "Can speed up construction of a building", "Can speed up the construction of a wonder",
 		"May create improvements on water resources", "Can pass through impassable tiles"]
-	},
-	{
-		"name": "Infected Technicians",
-		"unitType": "Logistics",
-		"movement": 2,
-		"cost": 80,
-		"uniqueTo": "The Flood",
-		"uniques": ["Can build [Land] improvements on tiles", "Automation is a primary action", 
-		"[+2] Movement in [Blightlands] tiles", "Can transform to [Carrier Form]"]
-	},
-	{
-		"name": "Infected Grunt Workers",
-		"unitType": "Logistics",
-		"movement": 2,
-		"cost": 70,
-		"uniqueTo": "The Flood",
-		"uniques": ["Can build [Land] improvements on tiles", "Automation is a primary action",
-		"[+2] Movement in [Blightlands] tiles", "Can transform to [Carrier Form]"]
 	},
 	{
 		"name": "Settler",
@@ -117,6 +117,16 @@
 		"[-20] Strength <vs [Core Armor] and [Heavy Armor]>"],
 	},
 	{
+		"name": "Infected Warthog",
+		"unitType": "Flood Scout",
+		"uniqueTo": "The Flood",
+		"movement": 4,
+		"strength": 26,
+		"cost": 150,
+		"uniques": ["Cannot be purchased", "[+3] Sight", "Cannot embark", 
+		"[-20] Strength <vs [Core Armor] and [Heavy Armor]", "[This Unit] heals [6] HP <upon ending a turn in a [Blightlands] tile>"]
+	},
+	{
 		"name": "Truck",
 		"unitType": "Scout",
 		"movement": 4,
@@ -125,6 +135,15 @@
 		"uniques": ["Cannot be purchased", "[+3] Sight", "Can transform to [Infected Truck] <for [The Flood] Civilizations>"],
 		"uniqueTo": "Barbarians",
 		"replaces": "Warthog"
+	},
+	{
+		"name": "Infected Truck",
+		"unitType": "Flood Scout",
+		"uniqueTo": "The Flood",
+		"movement": 4,
+		"strength": 10,
+		"cost": 90,
+		"uniques": ["Cannot be purchased", "[+3] Sight", "[This Unit] heals [6] HP <upon ending a turn in a [Blightlands] tile>"]
 	},
 	{
 		"name": "Ghost",
@@ -137,6 +156,17 @@
 		"uniques": ["Cannot be purchased", "[+3] Sight", "Can transform to [Infected Ghost] <for [The Flood] Civilizations>"]
 		"uniqueTo": "The Covenant"
 		"replaces": "Warthog",
+	},
+	{
+		"name": "Infected Ghost",
+		"unitType": "Flood Scout",
+		"uniqueTo": "The Flood",
+		"movement": 5,
+		"strength": 12,
+		"rangedStrength": 30,
+		"range": 2,
+		"cost": 100,
+		"uniques": ["Cannot be purchased", "[+3] Sight", "[This Unit] heals [6] HP <upon ending a turn in a [Blightlands] tile>"]
 	},
 	{
 		"name": "Infection Form",
@@ -254,7 +284,6 @@
 		"name": "Infected Marines",
 		"unitType": "Flood Main Infantry",
 		"uniqueTo": "The Flood",
-		"replaces": "Marine",
 		"movement": 2,
 		"strength": 9,
 		"rangedStrength": 9,
@@ -309,7 +338,7 @@
 		"rangedStrength": 15,
 		"range": 3,
 		"cost": 100,
-		"uniques": ["Cannot be purchased",
+		"uniques": ["Unbuildable", "Cannot be purchased",
 		"[+150]% Strength <vs [Light Infantry], [Main Infantry], [Heavy Infantry], [Flood Light Infantry], [Flood Main Infantry], [Flood Heavy Infantry], [Rebel Infantry], [Covenant Leader Unit], and [Flood Scout]>",
 		"May enter foreign tiles without open borders", "Can transform to [Carrier Form]"]
 	},
@@ -322,7 +351,7 @@
 		"rangedStrength": 30,
 		"range": 2,
 		"cost": 300,
-		"uniques": ["[+2] Sight", "Cannot be purchased", "[+2] Movement <in [Blightlands] tiles>", 
+		"uniques": ["[+2] Sight", "Unbuildable", "Cannot be purchased", "[+2] Movement <in [Blightlands] tiles>", 
 		"[This Unit] heals [6] HP <upon ending a turn in a [Blightlands] tile>", "Can move after attacking", 
 		"May capture killed [Light Armor], [Main Armor], and [Heavy Armor] units", 
 		"May enter foreign tiles without open borders"]
@@ -380,7 +409,19 @@
 		"range": 4,
 		"cost": 200,
 		"requiredTech": "Early Naval Construction",
-		"uniques": ["Cannot be purchased", "Can only be built <in cities with a [Shipyard]>", "Can only be built <in cities with a [Reactor]>"]
+		"uniques": ["Cannot be purchased", "Can only be built <in cities with a [Shipyard]>", 
+		"Can only be built <in cities with a [Reactor]>", "Can transform to [Infected LCS] <for [The Flood] Civilizations>"]
+	},
+	{
+		"name": "Infected LCS",
+		"unitType": "Infested Naval Ship",
+		"uniqueTo": "The Flood",
+		"movement": 7,
+		"strength": 40,
+		"rangedStrength": 55,
+		"range": 4,
+		"cost": 200,
+		"uniques": ["Unbuildable", "Cannot be purchased"]
 	},
 	{
 		"name": "Ship of the Line",
@@ -392,7 +433,20 @@
 		"range": 7,
 		"cost": 400,
 		"requiredTech": "Wet Fleet",
-		"uniques": ["Cannot be purchased", "Can only be built <in cities with a [Shipyard]>", "Can only be built <in cities with a [Advanced Reactor]>"],
+		"uniques": ["[+2] Sight", "Cannot be purchased", "Can only be built <in cities with a [Shipyard]>", 
+		"Can only be built <in cities with a [Advanced Reactor]>, Can transform to [Infected Ship of the Line] <for [The Flood] Civilizations>",
+		"[1] additional attacks per turn"]
+	},
+	{
+		"name": "Infected Ship of the Line",
+		"unitType": "Infested Naval Ship",
+		"uniqueTo": "The Flood",
+		"movement": 5,
+		"strength": 65,
+		"rangedStrength": 75,
+		"range": 7,
+		"cost": 400,
+		"uniques": ["[+2] Sight", "Unbuildable", "Cannot be purchased", "[1] additional attacks per turn"]
 	},
 	{
 		"name": "Elephant",
@@ -404,8 +458,24 @@
 		"range": 1,
 		"cost": 300,
 		"uniques": ["Cannot embark", "Cannot be purchased", "Rough terrain penalty", "Can only be built <in cities with a [Reactor]>", 
-		"Can move after attacking", "Can carry [3] [Light Infantry] units", "Can carry [2] [Main Infantry] units","Can carry [1] [Heavy Infantry] units",
-		"Can carry [2] [Special Forces] units", "Free [Marine] appears <once> <for all movement> <requires [3] movement>", "Free [Flamethrowers] appears <once> <for all movement> <requires [3] movement>"]
+		"Can move after attacking", "Can carry [3] [Light Infantry] units", "Can carry [2] [Main Infantry] units", 
+		"Can carry [1] [Heavy Infantry] units", "Can carry [2] [Special Forces] units", 
+		"Free [Marine] appears <once> <for all movement> <requires [3] movement>", 
+		"Free [Flamethrowers] appears <once> <for all movement> <requires [3] movement>", "Can transform to [Infested Elephant] <for [The Flood] Civilizations"]
+	},
+	{
+		"name": "Infested Elephant",
+		"unitType": "Flood Heavy Armor",
+		"uniqueTo": "The Flood",
+		"movement": 3,
+		"strength": 20,
+		"rangedStrength": 37,
+		"range": 1,
+		"cost": 300,
+		"uniques": ["Unbuildable", "Cannot embark", "Cannot be purchased", "Rough terrain penalty", 
+		"Can move after attacking", "Can carry [10] [Infection Form] units", 
+		"Can carry [1] [Flood Heavy Infantry] units", "Can carry [3] [Flood Light Infantry] units", 
+		"Free [Infection Form] appears <once> <for all movement> <requires [3] movement>"]
 	},
 	{
 		"name": "Scorpion",
@@ -417,7 +487,19 @@
 		"range": 4,
 		"cost": 300,
 		"uniques": ["Cannot be purchased", "No defensive terrain bonus", "Rough terrain penalty", "Can only be built <in cities with a [Vehicle Depot]>", 
-		"Can only be built <in cities with a [Advanced Reactor]>", "Can move after attacking", "Blast radius [1]"]
+		"Can only be built <in cities with a [Advanced Reactor]>", "Can move after attacking", "Blast radius [1]",
+		"Can transform to [Infected Scorpion] <for [The Flood] Civilizations>"]
+	},
+	{
+		"name": "Infected Scorpion",
+		"unitType": "Flood Heavy Armor",
+		"uniqueTo": "The Flood",
+		"movement": 5,
+		"strength": 42,
+		"rangedStrength": 63,
+		"range": 4,
+		"cost": 300,
+		"uniques": ["Unbuildable", "Cannot be purchased", "No defensive terrain bonus", "Rough terrain penalty", "Blast radius [1]"]
 	},
 	{
 		"name": "Cobra",
@@ -477,48 +559,6 @@
 		"cost": 190,
 		"uniques": ["Cannot be purchased", "No defensive terrain bonus", "Withdraws before melee combat", "Can pass through impassable tiles",
 		"[3] additional attacks per turn", "[+200]% Strength <vs cities>"]
-	},
-	{
-		"name": "Infected Warthog",
-		"unitType": "Flood Scout",
-		"uniqueTo": "The Flood",
-		"movement": 4,
-		"strength": 26,
-		"cost": 150,
-		"uniques": ["Cannot be purchased", "[+3] Sight", "Cannot embark", 
-		"[-20] Strength <vs [Core Armor] and [Heavy Armor]", "[This Unit] heals [6] HP <upon ending a turn in a [Blightlands] tile>"]
-	},
-	{
-		"name": "Infected Truck",
-		"unitType": "Flood Scout",
-		"uniqueTo": "The Flood",
-		"movement": 4,
-		"strength": 10,
-		"cost": 90,
-		"uniques": ["Cannot be purchased", "[+3] Sight", "[This Unit] heals [6] HP <upon ending a turn in a [Blightlands] tile>"]
-	},
-	{
-		"name": "Infected Ghost",
-		"unitType": "Flood Scout",
-		"uniqueTo": "The Flood",
-		"movement": 5,
-		"strength": 12,
-		"rangedStrength": 30,
-		"range": 2,
-		"cost": 100,
-		"uniques": ["Cannot be purchased", "[+3] Sight", "[This Unit] heals [6] HP <upon ending a turn in a [Blightlands] tile>"]
-	},
-	{
-		"name": "Pikeman",
-		"unitType": "Sword",
-		"movement": 2,
-		"strength": 16,
-		"cost": 90,
-		"requiredTech": "Civil Service",
-		"uniques": ["[+50]% Strength <vs [Mounted] units>"],
-		"upgradesTo": "Lancer",
-		"obsoleteTech": "Metallurgy",
-		"attackSound": "metalhit"
 	},
 	{
 		"name": "Galleass",
