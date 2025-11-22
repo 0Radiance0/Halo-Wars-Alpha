@@ -468,15 +468,14 @@
 	},
 	{
 		"name": "Infested Carrier",
-		"unitType": "Aircraft Carrier",
-		"uniqueTo": "UNSC",
+		"unitType": "Infested Carrier",
+		"uniqueTo": "The Flood",
 		"movement": 3,
-		"strength": 70,
+		"strength": 50,
 		"cost": 500,
-		"requiredTech": "Wet Fleet",
-		"uniques": ["[+6] Sight", "Cannot be purchased", "Can only be built <in cities with a [Shipyard]>",
-		"Can only be built <in cities with a [Advanced Reactor]>", "Can carry [8] [VTOL] units", "Can carry [3] [Main Infantry] units",
-		"Can carry [3] [Special Forces] units", "Can carry [1] [Scout] units", "Can transform to [Infested Carrier] <for [The Flood] Civilizations>"]
+		"uniques": ["Unbuildable", "[+6] Sight", "Cannot be purchased",
+		"Can carry [8] [Infested VTOL] units", "Can carry [2] [Infested Bomber] units", "Can carry [3] [Flood Main Infantry] units",
+		"Can carry [3] [Flood Special Forces] units", "Can carry [5] [Pure Form] units", "Can carry [7] [Flood Scout] units"]
 	},
 	{
 		"name": "Elephant",
