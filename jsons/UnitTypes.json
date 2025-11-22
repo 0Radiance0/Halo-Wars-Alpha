@@ -7,7 +7,7 @@
     {
         "name": "Forerunner Logistics",
         "movementType": "Air",
-        "uniques": ["Aircraft", "Never appears as a Barbarian unit"]
+        "uniques": ["Uncapturable", "Aircraft", "Never appears as a Barbarian unit"]
     },
     {
         "name": "Flood Scout",
@@ -69,7 +69,7 @@
     {
         "name": "Pure Form",
         "movementType": "Land"
-        "uniques": ["Never appears as a Barbarian unit"]
+        "uniques": ["Uncapturable", "Never appears as a Barbarian unit"]
     },
     {
         "name": "Scout",
@@ -78,6 +78,16 @@
     },
     {
         "name": "Artillery",
+        "movementType": "Land"
+        "uniques": ["Never appears as a Barbarian unit"]
+    },
+    {
+        "name": "Forerunner Artillery",
+        "movementType": "Air"
+        "uniques": ["Never appears as a Barbarian unit", "Aircraft", "Uncapturable"]
+    },
+    {
+        "name": "Infected Artillery",
         "movementType": "Land"
         "uniques": ["Never appears as a Barbarian unit"]
     },
@@ -93,6 +103,21 @@
     },
     {
         "name": "Heavy Armor",
+        "movementType": "Land"
+        "uniques": ["Never appears as a Barbarian unit"]
+    },
+    {
+        "name": "Infected Light Armor",
+        "movementType": "Land"
+        "uniques": ["Never appears as a Barbarian unit"]
+    },
+    {
+        "name": "Infected Core Armor",
+        "movementType": "Land"
+        "uniques": ["Never appears as a Barbarian unit"]
+    },
+    {
+        "name": "Infected Heavy Armor",
         "movementType": "Land"
         "uniques": ["Never appears as a Barbarian unit"]
     },
@@ -216,6 +241,6 @@
     {
         "name": "Missile",
         "movementType": "Air",
-        "uniques": ["Self-destructs when attacking", "Cannot be intercepted", "Never appears as a Barbarian unit"]
+        "uniques": ["Uncapturable", "Self-destructs when attacking", "Cannot be intercepted", "Never appears as a Barbarian unit"]
     }
 ]
