@@ -54,8 +54,26 @@
 		"innerColor": [99,82,40],
 		"uniqueName": "Timeless Chorus",
 		"uniques": ["Start with +10 Food in all cities. Many Flood units can capture enemy units that they kill. [+1000] Happiness [in all cities].",
-		"When conquering an encampment, earn [50] Gold and recruit a Rebels unit."],
+		"When conquering an encampment, earn [50] Gold and recruit a Barbarian unit."],
 		"cities": ["Gravemind", "Flood Colony"]
-	}
+	},
+	{
+		"name": "Forerunner Remnant",
+		"leaderName": "Shield World 0459",
+		"preferredVictoryType": "Containment",
+		"personality": "Trove",
 
+		"startIntroPart1": "Welcome to the Halo Wars mod."
+		"startIntroPart2": "The Forerunner Remnant is a bit of an unusual faction. They have the slowest city expansion of all unique factions, but have incredible late-game potential with the ability to construct advanced Forerunner structures. Additionally, all Forerunner units can fly and thus are not held back by terrain. Keep the other factions in line with cheap, mass-produced Sentinels and reclaim the surface of the Shield World!",
+		"declaringWar": "...",
+		"attacked": "<Defense systems initializing.>",
+		"defeated": "..."
+		"introduction": "<Identifying new target.>"
+		"declaringFriendship": "<Target reclassified as Friendly.>"
+		"outerColor": [],
+		"innterColor": [],
+		"uniqueName": "Reclamation",
+		"uniques": ["Start with two Constructor Sentinels. All units can fly. Access to advanced structures."],
+		"cities": ["Trove Core", "Forerunner Base"]
+	}
 ]
